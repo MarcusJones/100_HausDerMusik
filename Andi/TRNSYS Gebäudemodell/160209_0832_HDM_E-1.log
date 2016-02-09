@@ -1,0 +1,22 @@
+************************************************************
+** TRNSIDF Version 1.55 
+** Working directory: C:\Users\ank\Desktop\Haus der Musik Innsbruck\TRNSYS Gebäudemodell\ 
+************************************************************
+** Reading IDF file: C:\Users\ank\Desktop\Haus der Musik Innsbruck\TRNSYS Gebäudemodell\160209_0832_HDM_E-1.idf
+** Closing IDF file: C:\Users\ank\Desktop\Haus der Musik Innsbruck\TRNSYS Gebäudemodell\160209_0832_HDM_E-1.idf
+************************************************************
+** Reading presorted IDF file: C:\Users\ank\Desktop\Haus der Musik Innsbruck\TRNSYS Gebäudemodell\160209_0832_HDM_E-1_b17.idf
+** Closing IDF file: C:\Users\ank\Desktop\Haus der Musik Innsbruck\TRNSYS Gebäudemodell\160209_0832_HDM_E-1_b17.idf
+************************************************************
+** Calculation of geometry information start
+Surface : Normal vector : Orientation : Area
+    21        done           done       done
+     7        done           done       done
+    18        done           done       done
+    16        done           done       done
+    20        done           done       done
+    10        done           done       done
+    11        done           done       done
+    12        done           done       done
+    15        done           done       done
+    19
