@@ -1,0 +1,77 @@
+************************************************************
+** TRNSIDF Version 1.55 
+** Working directory: C:\Users\ank\Desktop\Haus der Musik Innsbruck\TRNSYS Gebäudemodell\ 
+************************************************************
+** Reading IDF file: C:\Users\ank\Desktop\Haus der Musik Innsbruck\TRNSYS Gebäudemodell\160209_1441_HDM_E-1.idf
+** Closing IDF file: C:\Users\ank\Desktop\Haus der Musik Innsbruck\TRNSYS Gebäudemodell\160209_1441_HDM_E-1.idf
+************************************************************
+** Reading presorted IDF file: C:\Users\ank\Desktop\Haus der Musik Innsbruck\TRNSYS Gebäudemodell\160209_1441_HDM_E-1_b17.idf
+** Closing IDF file: C:\Users\ank\Desktop\Haus der Musik Innsbruck\TRNSYS Gebäudemodell\160209_1441_HDM_E-1_b17.idf
+************************************************************
+** Calculation of geometry information start
+Surface : Normal vector : Orientation : Area
+     1        done           done       done
+     2        done           done       done
+     3        done           done       done
+     4        done           done       done
+     5        done           done       done
+     6        done           done       done
+     7        done           done       done
+     8        done           done       done
+     9        done           done       done
+    10        done           done       done
+    11        done           done       done
+    12        done           done       done
+    13        done           done       done
+    14        done           done       done
+    15        done           done       done
+    16        done           done       done
+    17        done           done       done
+    18        done           done       done
+    19        done           done       done
+    20        done           done       done
+    21        done           done       done
+    22        done           done       done
+    23        done           done       done
+    24        done           done       done
+    25        done           done       done
+    26        done           done       done
+    27        done           done       done
+    28        done           done       done
+    29        done           done       done
+    30        done           done       done
+    31        done           done       done
+    32        done           done       done
+    33        done           done       done
+    34        done           done       done
+    35        done           done       done
+    36        done           done       done
+    37        done           done       done
+    38        done           done       done
+    39        done           done       done
+    40        done           done       done
+    41        done           done       done
+    42        done           done       done
+    43        done           done       done
+    44        done           done       done
+    45        done           done       done
+    46        done           done       done
+    47        done           done       done
+    48        done           done       done
+    49        done           done       done
+    50        done           done       done
+    51        done           done       done
+    52        done           done       done
+    53        done           done       done
+    54        done           done       done
+    55        done           done       done
+    56        done           done       done
+** Calculation of geometry information end
+************************************************************
+** Writing B17 file: C:\Users\ank\Desktop\Haus der Musik Innsbruck\TRNSYS Gebäudemodell\160209_1441_HDM_E-1.b17
+** Reading BUI template: NewBuiTemplate.b17
+************************************************************
+** New orientations (set to internal radiation calculation): S_0_90 W_90_90 N_180_90 E_270_90
+************************************************************
+** Closing BUI template: NewBuiTemplate.b17
+** Closing B17 File: C:\Users\ank\Desktop\Haus der Musik Innsbruck\TRNSYS Gebäudemodell\160209_1441_HDM_E-1.b17

@@ -390,7 +390,7 @@ SurfaceProperty:OtherSideCoefficients,
  
 
   Zone,
-    Technik,  !- Name
+    Technik_U2,  !- Name
     0.0,  !- Direction of Relative North {deg}
     0.0,  !- X Origin {m}
     0.0,  !- Y Origin {m}
@@ -402,7 +402,7 @@ SurfaceProperty:OtherSideCoefficients,
     AE3F0C,  !- Name
     Floor,  !- Surface Type
     GROUND_FLOOR,  !- Construction Name
-    Technik,  !- Zone Name
+    Technik_U2,  !- Zone Name
     Ground,  !- Outside Boundary Condition
     BOUNDARY=INPUT 1*TGROUND,  !- Outside Boundary Condition Object
     NoSun,  !- Sun Exposure
@@ -489,12 +489,28 @@ SurfaceProperty:OtherSideCoefficients,
     NoSun,  !- Sun Exposure
     NoWind,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
-    0,  !- Number of Vertices
-    ;  !- Vertex 1 X-coordinate {m}
- 
+    6,  !- Number of Vertices
+    35.620000000000,  !- Vertex 1 X-coordinate {m}
+    42.420000000000,  !- Vertex 1 Y-coordinate {m}
+    0.000000000000,  !- Vertex 1 Z-coordinate {m}
+    35.620000000000,  !- Vertex 2 X-coordinate {m}
+    19.710000000000,  !- Vertex 2 Y-coordinate {m}
+    0.000000000000,  !- Vertex 2 Z-coordinate {m}
+    29.510000000000,  !- Vertex 3 X-coordinate {m}
+    19.710000000000,  !- Vertex 3 Y-coordinate {m}
+    0.000000000000,  !- Vertex 3 Z-coordinate {m}
+    29.510000000000,  !- Vertex 4 X-coordinate {m}
+    40.570000000000,  !- Vertex 4 Y-coordinate {m}
+    0.000000000000,  !- Vertex 4 Z-coordinate {m}
+    34.170000000000,  !- Vertex 5 X-coordinate {m}
+    40.570000000000,  !- Vertex 5 Y-coordinate {m}
+    0.000000000000,  !- Vertex 5 Z-coordinate {m}
+    34.170000000000,  !- Vertex 6 X-coordinate {m}
+    42.420000000000,  !- Vertex 6 Y-coordinate {m}
+    0.000000000000;  !- Vertex 6 Z-coordinate {m}
 
   Zone,
-    Allgemein,  !- Name
+    Allgemein_U2,  !- Name
     0.0,  !- Direction of Relative North {deg}
     0.0,  !- X Origin {m}
     0.0,  !- Y Origin {m}
@@ -506,21 +522,55 @@ SurfaceProperty:OtherSideCoefficients,
     41D3E2,  !- Name
     Floor,  !- Surface Type
     GROUND_FLOOR,  !- Construction Name
-    Allgemein,  !- Zone Name
+    Allgemein_U2,  !- Zone Name
     Ground,  !- Outside Boundary Condition
     BOUNDARY=INPUT 1*TGROUND,  !- Outside Boundary Condition Object
     NoSun,  !- Sun Exposure
     NoWind,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
-    0,  !- Number of Vertices
-    ;  !- Vertex 1 X-coordinate {m}
- 
+    12,  !- Number of Vertices
+    45.820000000000,  !- Vertex 1 X-coordinate {m}
+    40.570000000000,  !- Vertex 1 Y-coordinate {m}
+    0.000000000000,  !- Vertex 1 Z-coordinate {m}
+    45.820000000000,  !- Vertex 2 X-coordinate {m}
+    19.710000000000,  !- Vertex 2 Y-coordinate {m}
+    0.000000000000,  !- Vertex 2 Z-coordinate {m}
+    41.910000000000,  !- Vertex 3 X-coordinate {m}
+    19.710000000000,  !- Vertex 3 Y-coordinate {m}
+    0.000000000000,  !- Vertex 3 Z-coordinate {m}
+    41.910000000000,  !- Vertex 4 X-coordinate {m}
+    10.410000000000,  !- Vertex 4 Y-coordinate {m}
+    0.000000000000,  !- Vertex 4 Z-coordinate {m}
+    39.710000000000,  !- Vertex 5 X-coordinate {m}
+    10.410000000000,  !- Vertex 5 Y-coordinate {m}
+    0.000000000000,  !- Vertex 5 Z-coordinate {m}
+    39.710000000000,  !- Vertex 6 X-coordinate {m}
+    3.060000000000,  !- Vertex 6 Y-coordinate {m}
+    0.000000000000,  !- Vertex 6 Z-coordinate {m}
+    34.170000000000,  !- Vertex 7 X-coordinate {m}
+    3.060000000000,  !- Vertex 7 Y-coordinate {m}
+    0.000000000000,  !- Vertex 7 Z-coordinate {m}
+    34.170000000000,  !- Vertex 8 X-coordinate {m}
+    19.710000000000,  !- Vertex 8 Y-coordinate {m}
+    0.000000000000,  !- Vertex 8 Z-coordinate {m}
+    35.620000000000,  !- Vertex 9 X-coordinate {m}
+    19.710000000000,  !- Vertex 9 Y-coordinate {m}
+    0.000000000000,  !- Vertex 9 Z-coordinate {m}
+    35.620000000000,  !- Vertex 10 X-coordinate {m}
+    42.420000000000,  !- Vertex 10 Y-coordinate {m}
+    0.000000000000,  !- Vertex 10 Z-coordinate {m}
+    38.930000000000,  !- Vertex 11 X-coordinate {m}
+    42.420000000000,  !- Vertex 11 Y-coordinate {m}
+    0.000000000000,  !- Vertex 11 Z-coordinate {m}
+    38.930000000000,  !- Vertex 12 X-coordinate {m}
+    40.570000000000,  !- Vertex 12 Y-coordinate {m}
+    0.000000000000;  !- Vertex 12 Z-coordinate {m}
 
   BuildingSurface:Detailed,
     2597E6,  !- Name
     Wall,  !- Surface Type
     EXT_WALL,  !- Construction Name
-    Technik,  !- Zone Name
+    Technik_U2,  !- Zone Name
     Outdoors,  !- Outside Boundary Condition
     ,  !- Outside Boundary Condition Object
     SunExposed,  !- Sun Exposure
@@ -544,7 +594,7 @@ SurfaceProperty:OtherSideCoefficients,
     AD10E9,  !- Name
     Wall,  !- Surface Type
     EXT_WALL,  !- Construction Name
-    Technik,  !- Zone Name
+    Technik_U2,  !- Zone Name
     Outdoors,  !- Outside Boundary Condition
     ,  !- Outside Boundary Condition Object
     SunExposed,  !- Sun Exposure
@@ -568,7 +618,7 @@ SurfaceProperty:OtherSideCoefficients,
     4A7FC9,  !- Name
     Wall,  !- Surface Type
     EXT_WALL,  !- Construction Name
-    Technik,  !- Zone Name
+    Technik_U2,  !- Zone Name
     Outdoors,  !- Outside Boundary Condition
     ,  !- Outside Boundary Condition Object
     SunExposed,  !- Sun Exposure
@@ -592,7 +642,7 @@ SurfaceProperty:OtherSideCoefficients,
     5F83A6,  !- Name
     Wall,  !- Surface Type
     EXT_WALL,  !- Construction Name
-    Technik,  !- Zone Name
+    Technik_U2,  !- Zone Name
     Outdoors,  !- Outside Boundary Condition
     ,  !- Outside Boundary Condition Object
     SunExposed,  !- Sun Exposure
@@ -616,7 +666,7 @@ SurfaceProperty:OtherSideCoefficients,
     8561F3,  !- Name
     Wall,  !- Surface Type
     EXT_WALL,  !- Construction Name
-    Technik,  !- Zone Name
+    Technik_U2,  !- Zone Name
     Outdoors,  !- Outside Boundary Condition
     ,  !- Outside Boundary Condition Object
     SunExposed,  !- Sun Exposure
@@ -640,7 +690,7 @@ SurfaceProperty:OtherSideCoefficients,
     56D7E0,  !- Name
     Wall,  !- Surface Type
     EXT_WALL,  !- Construction Name
-    Technik,  !- Zone Name
+    Technik_U2,  !- Zone Name
     Outdoors,  !- Outside Boundary Condition
     ,  !- Outside Boundary Condition Object
     SunExposed,  !- Sun Exposure
@@ -664,7 +714,7 @@ SurfaceProperty:OtherSideCoefficients,
     B7041E,  !- Name
     Wall,  !- Surface Type
     EXT_WALL,  !- Construction Name
-    Technik,  !- Zone Name
+    Technik_U2,  !- Zone Name
     Outdoors,  !- Outside Boundary Condition
     ,  !- Outside Boundary Condition Object
     SunExposed,  !- Sun Exposure
@@ -688,7 +738,7 @@ SurfaceProperty:OtherSideCoefficients,
     F63B32,  !- Name
     Wall,  !- Surface Type
     EXT_WALL,  !- Construction Name
-    Technik,  !- Zone Name
+    Technik_U2,  !- Zone Name
     Outdoors,  !- Outside Boundary Condition
     ,  !- Outside Boundary Condition Object
     SunExposed,  !- Sun Exposure
@@ -712,7 +762,7 @@ SurfaceProperty:OtherSideCoefficients,
     582D90,  !- Name
     Wall,  !- Surface Type
     EXT_WALL,  !- Construction Name
-    Technik,  !- Zone Name
+    Technik_U2,  !- Zone Name
     Outdoors,  !- Outside Boundary Condition
     ,  !- Outside Boundary Condition Object
     SunExposed,  !- Sun Exposure
@@ -735,36 +785,36 @@ SurfaceProperty:OtherSideCoefficients,
   BuildingSurface:Detailed,
     ECE098,  !- Name
     Wall,  !- Surface Type
-    EXT_WALL,  !- Construction Name
-    Technik,  !- Zone Name
-    Outdoors,  !- Outside Boundary Condition
-    ,  !- Outside Boundary Condition Object
-    SunExposed,  !- Sun Exposure
-    WindExposed,  !- Wind Exposure
+    ADJ_WALL,  !- Construction Name
+    Technik_U2,  !- Zone Name
+    Zone,  !- Outside Boundary Condition
+    Allgemein_U2,  !- Outside Boundary Condition Object
+    NoSun,  !- Sun Exposure
+    NoWind,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
     4,  !- Number of Vertices
-    33.810000000000,  !- Vertex 1 X-coordinate {m}
+    34.170000000000,  !- Vertex 1 X-coordinate {m}
     3.060000000000,  !- Vertex 1 Y-coordinate {m}
     3.600000000000,  !- Vertex 1 Z-coordinate {m}
-    33.810000000000,  !- Vertex 2 X-coordinate {m}
+    34.170000000000,  !- Vertex 2 X-coordinate {m}
     3.060000000000,  !- Vertex 2 Y-coordinate {m}
     0.000000000000,  !- Vertex 2 Z-coordinate {m}
-    33.810000000000,  !- Vertex 3 X-coordinate {m}
+    34.170000000000,  !- Vertex 3 X-coordinate {m}
     19.710000000000,  !- Vertex 3 Y-coordinate {m}
     0.000000000000,  !- Vertex 3 Z-coordinate {m}
-    33.810000000000,  !- Vertex 4 X-coordinate {m}
+    34.170000000000,  !- Vertex 4 X-coordinate {m}
     19.710000000000,  !- Vertex 4 Y-coordinate {m}
     3.600000000000;  !- Vertex 4 Z-coordinate {m}
 
   BuildingSurface:Detailed,
     EDAB0E,  !- Name
     Wall,  !- Surface Type
-    EXT_WALL,  !- Construction Name
-    Technik,  !- Zone Name
-    Outdoors,  !- Outside Boundary Condition
-    ,  !- Outside Boundary Condition Object
-    SunExposed,  !- Sun Exposure
-    WindExposed,  !- Wind Exposure
+    ADJ_WALL,  !- Construction Name
+    Technik_U2,  !- Zone Name
+    Zone,  !- Outside Boundary Condition
+    Konzertsaal,  !- Outside Boundary Condition Object
+    NoSun,  !- Sun Exposure
+    NoWind,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
     4,  !- Number of Vertices
     33.810000000000,  !- Vertex 1 X-coordinate {m}
@@ -783,12 +833,12 @@ SurfaceProperty:OtherSideCoefficients,
   BuildingSurface:Detailed,
     AD6460,  !- Name
     Wall,  !- Surface Type
-    EXT_WALL,  !- Construction Name
-    Technik,  !- Zone Name
-    Outdoors,  !- Outside Boundary Condition
-    ,  !- Outside Boundary Condition Object
-    SunExposed,  !- Sun Exposure
-    WindExposed,  !- Wind Exposure
+    ADJ_WALL,  !- Construction Name
+    Technik_U2,  !- Zone Name
+    Zone,  !- Outside Boundary Condition
+    Konzertsaal,  !- Outside Boundary Condition Object
+    NoSun,  !- Sun Exposure
+    NoWind,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
     4,  !- Number of Vertices
     29.510000000000,  !- Vertex 1 X-coordinate {m}
@@ -807,12 +857,12 @@ SurfaceProperty:OtherSideCoefficients,
   BuildingSurface:Detailed,
     71BEF0,  !- Name
     Wall,  !- Surface Type
-    EXT_WALL,  !- Construction Name
-    Technik,  !- Zone Name
-    Outdoors,  !- Outside Boundary Condition
-    ,  !- Outside Boundary Condition Object
-    SunExposed,  !- Sun Exposure
-    WindExposed,  !- Wind Exposure
+    ADJ_WALL,  !- Construction Name
+    Technik_U2,  !- Zone Name
+    Zone,  !- Outside Boundary Condition
+    Konzertsaal,  !- Outside Boundary Condition Object
+    NoSun,  !- Sun Exposure
+    NoWind,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
     4,  !- Number of Vertices
     29.510000000000,  !- Vertex 1 X-coordinate {m}
@@ -832,7 +882,7 @@ SurfaceProperty:OtherSideCoefficients,
     AD4D78,  !- Name
     Wall,  !- Surface Type
     EXT_WALL,  !- Construction Name
-    Technik,  !- Zone Name
+    Technik_U2,  !- Zone Name
     Outdoors,  !- Outside Boundary Condition
     ,  !- Outside Boundary Condition Object
     SunExposed,  !- Sun Exposure
@@ -856,7 +906,7 @@ SurfaceProperty:OtherSideCoefficients,
     AB64D2,  !- Name
     Wall,  !- Surface Type
     EXT_WALL,  !- Construction Name
-    Technik,  !- Zone Name
+    Technik_U2,  !- Zone Name
     Outdoors,  !- Outside Boundary Condition
     ,  !- Outside Boundary Condition Object
     SunExposed,  !- Sun Exposure
@@ -879,12 +929,12 @@ SurfaceProperty:OtherSideCoefficients,
   BuildingSurface:Detailed,
     243F2C,  !- Name
     Wall,  !- Surface Type
-    EXT_WALL,  !- Construction Name
-    Technik,  !- Zone Name
-    Outdoors,  !- Outside Boundary Condition
-    ,  !- Outside Boundary Condition Object
-    SunExposed,  !- Sun Exposure
-    WindExposed,  !- Wind Exposure
+    ADJ_WALL,  !- Construction Name
+    Technik_U2,  !- Zone Name
+    Zone,  !- Outside Boundary Condition
+    Allgemein_U2,  !- Outside Boundary Condition Object
+    NoSun,  !- Sun Exposure
+    NoWind,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
     4,  !- Number of Vertices
     41.910000000000,  !- Vertex 1 X-coordinate {m}
@@ -903,12 +953,12 @@ SurfaceProperty:OtherSideCoefficients,
   BuildingSurface:Detailed,
     400DA0,  !- Name
     Wall,  !- Surface Type
-    EXT_WALL,  !- Construction Name
-    Technik,  !- Zone Name
-    Outdoors,  !- Outside Boundary Condition
-    ,  !- Outside Boundary Condition Object
-    SunExposed,  !- Sun Exposure
-    WindExposed,  !- Wind Exposure
+    ADJ_WALL,  !- Construction Name
+    Technik_U2,  !- Zone Name
+    Zone,  !- Outside Boundary Condition
+    Allgemein_U2,  !- Outside Boundary Condition Object
+    NoSun,  !- Sun Exposure
+    NoWind,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
     4,  !- Number of Vertices
     41.910000000000,  !- Vertex 1 X-coordinate {m}
@@ -927,12 +977,12 @@ SurfaceProperty:OtherSideCoefficients,
   BuildingSurface:Detailed,
     4897C9,  !- Name
     Wall,  !- Surface Type
-    EXT_WALL,  !- Construction Name
-    Technik,  !- Zone Name
-    Outdoors,  !- Outside Boundary Condition
-    ,  !- Outside Boundary Condition Object
-    SunExposed,  !- Sun Exposure
-    WindExposed,  !- Wind Exposure
+    ADJ_WALL,  !- Construction Name
+    Technik_U2,  !- Zone Name
+    Zone,  !- Outside Boundary Condition
+    Allgemein_U2,  !- Outside Boundary Condition Object
+    NoSun,  !- Sun Exposure
+    NoWind,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
     4,  !- Number of Vertices
     39.710000000000,  !- Vertex 1 X-coordinate {m}
@@ -951,12 +1001,12 @@ SurfaceProperty:OtherSideCoefficients,
   BuildingSurface:Detailed,
     B999BF,  !- Name
     Wall,  !- Surface Type
-    EXT_WALL,  !- Construction Name
-    Technik,  !- Zone Name
-    Outdoors,  !- Outside Boundary Condition
-    ,  !- Outside Boundary Condition Object
-    SunExposed,  !- Sun Exposure
-    WindExposed,  !- Wind Exposure
+    ADJ_WALL,  !- Construction Name
+    Technik_U2,  !- Zone Name
+    Zone,  !- Outside Boundary Condition
+    Allgemein_U2,  !- Outside Boundary Condition Object
+    NoSun,  !- Sun Exposure
+    NoWind,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
     4,  !- Number of Vertices
     39.710000000000,  !- Vertex 1 X-coordinate {m}
@@ -976,7 +1026,7 @@ SurfaceProperty:OtherSideCoefficients,
     305210,  !- Name
     Roof,  !- Surface Type
     EXT_ROOF,  !- Construction Name
-    Technik,  !- Zone Name
+    Technik_U2,  !- Zone Name
     Outdoors,  !- Outside Boundary Condition
     ,  !- Outside Boundary Condition Object
     SunExposed,  !- Sun Exposure
@@ -1047,12 +1097,12 @@ SurfaceProperty:OtherSideCoefficients,
   BuildingSurface:Detailed,
     B47473,  !- Name
     Wall,  !- Surface Type
-    EXT_WALL,  !- Construction Name
-    Technik,  !- Zone Name
-    Outdoors,  !- Outside Boundary Condition
-    ,  !- Outside Boundary Condition Object
-    SunExposed,  !- Sun Exposure
-    WindExposed,  !- Wind Exposure
+    ADJ_WALL,  !- Construction Name
+    Technik_U2,  !- Zone Name
+    Zone,  !- Outside Boundary Condition
+    Allgemein_U2,  !- Outside Boundary Condition Object
+    NoSun,  !- Sun Exposure
+    NoWind,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
     4,  !- Number of Vertices
     45.820000000000,  !- Vertex 1 X-coordinate {m}
@@ -1066,68 +1116,6 @@ SurfaceProperty:OtherSideCoefficients,
     0.000000000000,  !- Vertex 3 Z-coordinate {m}
     41.910000000000,  !- Vertex 4 X-coordinate {m}
     19.710000000000,  !- Vertex 4 Y-coordinate {m}
-    3.600000000000;  !- Vertex 4 Z-coordinate {m}
-
-  BuildingSurface:Detailed,
-    2CD26A,  !- Name
-    Wall,  !- Surface Type
-    EXT_WALL,  !- Construction Name
-    Konzertsaal,  !- Zone Name
-    Outdoors,  !- Outside Boundary Condition
-    ,  !- Outside Boundary Condition Object
-    SunExposed,  !- Sun Exposure
-    WindExposed,  !- Wind Exposure
-    ,  !- TRNSYS 17 - additional surface data
-    4,  !- Number of Vertices
-    29.510000000000,  !- Vertex 1 X-coordinate {m}
-    19.710000000000,  !- Vertex 1 Y-coordinate {m}
-    3.600000000000,  !- Vertex 1 Z-coordinate {m}
-    29.510000000000,  !- Vertex 2 X-coordinate {m}
-    19.710000000000,  !- Vertex 2 Y-coordinate {m}
-    0.000000000000,  !- Vertex 2 Z-coordinate {m}
-    33.810000000000,  !- Vertex 3 X-coordinate {m}
-    19.710000000000,  !- Vertex 3 Y-coordinate {m}
-    0.000000000000,  !- Vertex 3 Z-coordinate {m}
-    33.810000000000,  !- Vertex 4 X-coordinate {m}
-    19.710000000000,  !- Vertex 4 Y-coordinate {m}
-    3.600000000000;  !- Vertex 4 Z-coordinate {m}
-
-  BuildingSurface:Detailed,
-    4ED277,  !- Name
-    Roof,  !- Surface Type
-    EXT_ROOF,  !- Construction Name
-    Konzertsaal,  !- Zone Name
-    Outdoors,  !- Outside Boundary Condition
-    ,  !- Outside Boundary Condition Object
-    SunExposed,  !- Sun Exposure
-    WindExposed,  !- Wind Exposure
-    ,  !- TRNSYS 17 - additional surface data
-    0,  !- Number of Vertices
-    ;  !- Vertex 1 X-coordinate {m}
- 
-
-  BuildingSurface:Detailed,
-    63FDF4,  !- Name
-    Wall,  !- Surface Type
-    EXT_WALL,  !- Construction Name
-    Konzertsaal,  !- Zone Name
-    Outdoors,  !- Outside Boundary Condition
-    ,  !- Outside Boundary Condition Object
-    SunExposed,  !- Sun Exposure
-    WindExposed,  !- Wind Exposure
-    ,  !- TRNSYS 17 - additional surface data
-    4,  !- Number of Vertices
-    35.620000000000,  !- Vertex 1 X-coordinate {m}
-    19.710000000000,  !- Vertex 1 Y-coordinate {m}
-    3.600000000000,  !- Vertex 1 Z-coordinate {m}
-    35.620000000000,  !- Vertex 2 X-coordinate {m}
-    19.710000000000,  !- Vertex 2 Y-coordinate {m}
-    0.000000000000,  !- Vertex 2 Z-coordinate {m}
-    35.620000000000,  !- Vertex 3 X-coordinate {m}
-    42.420000000000,  !- Vertex 3 Y-coordinate {m}
-    0.000000000000,  !- Vertex 3 Z-coordinate {m}
-    35.620000000000,  !- Vertex 4 X-coordinate {m}
-    42.420000000000,  !- Vertex 4 Y-coordinate {m}
     3.600000000000;  !- Vertex 4 Z-coordinate {m}
 
   BuildingSurface:Detailed,
@@ -1157,17 +1145,17 @@ SurfaceProperty:OtherSideCoefficients,
   BuildingSurface:Detailed,
     3263DF,  !- Name
     Wall,  !- Surface Type
-    EXT_WALL,  !- Construction Name
+    ADJ_WALL,  !- Construction Name
     Konzertsaal,  !- Zone Name
-    Outdoors,  !- Outside Boundary Condition
-    ,  !- Outside Boundary Condition Object
-    SunExposed,  !- Sun Exposure
-    WindExposed,  !- Wind Exposure
+    Zone,  !- Outside Boundary Condition
+    Technik_U2,  !- Outside Boundary Condition Object
+    NoSun,  !- Sun Exposure
+    NoWind,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
     4,  !- Number of Vertices
     34.170000000000,  !- Vertex 1 X-coordinate {m}
     40.570000000000,  !- Vertex 1 Y-coordinate {m}
-    3.600000000000,  !- Vertex 1 Z-coordinate {m}
+    7.900000000000,  !- Vertex 1 Z-coordinate {m}
     34.170000000000,  !- Vertex 2 X-coordinate {m}
     40.570000000000,  !- Vertex 2 Y-coordinate {m}
     0.000000000000,  !- Vertex 2 Z-coordinate {m}
@@ -1176,53 +1164,29 @@ SurfaceProperty:OtherSideCoefficients,
     0.000000000000,  !- Vertex 3 Z-coordinate {m}
     29.510000000000,  !- Vertex 4 X-coordinate {m}
     40.570000000000,  !- Vertex 4 Y-coordinate {m}
-    3.600000000000;  !- Vertex 4 Z-coordinate {m}
+    7.900000000000;  !- Vertex 4 Z-coordinate {m}
 
   BuildingSurface:Detailed,
     FF7802,  !- Name
     Wall,  !- Surface Type
-    EXT_WALL,  !- Construction Name
+    ADJ_WALL,  !- Construction Name
     Konzertsaal,  !- Zone Name
-    Outdoors,  !- Outside Boundary Condition
-    ,  !- Outside Boundary Condition Object
-    SunExposed,  !- Sun Exposure
-    WindExposed,  !- Wind Exposure
+    Zone,  !- Outside Boundary Condition
+    Allgemein_U2,  !- Outside Boundary Condition Object
+    NoSun,  !- Sun Exposure
+    NoWind,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
     4,  !- Number of Vertices
-    33.810000000000,  !- Vertex 1 X-coordinate {m}
+    34.170000000000,  !- Vertex 1 X-coordinate {m}
     19.710000000000,  !- Vertex 1 Y-coordinate {m}
     3.600000000000,  !- Vertex 1 Z-coordinate {m}
-    33.810000000000,  !- Vertex 2 X-coordinate {m}
+    34.170000000000,  !- Vertex 2 X-coordinate {m}
     19.710000000000,  !- Vertex 2 Y-coordinate {m}
     0.000000000000,  !- Vertex 2 Z-coordinate {m}
     35.620000000000,  !- Vertex 3 X-coordinate {m}
     19.710000000000,  !- Vertex 3 Y-coordinate {m}
     0.000000000000,  !- Vertex 3 Z-coordinate {m}
     35.620000000000,  !- Vertex 4 X-coordinate {m}
-    19.710000000000,  !- Vertex 4 Y-coordinate {m}
-    3.600000000000;  !- Vertex 4 Z-coordinate {m}
-
-  BuildingSurface:Detailed,
-    2D7F3D,  !- Name
-    Wall,  !- Surface Type
-    EXT_WALL,  !- Construction Name
-    Konzertsaal,  !- Zone Name
-    Outdoors,  !- Outside Boundary Condition
-    ,  !- Outside Boundary Condition Object
-    SunExposed,  !- Sun Exposure
-    WindExposed,  !- Wind Exposure
-    ,  !- TRNSYS 17 - additional surface data
-    4,  !- Number of Vertices
-    29.510000000000,  !- Vertex 1 X-coordinate {m}
-    40.570000000000,  !- Vertex 1 Y-coordinate {m}
-    3.600000000000,  !- Vertex 1 Z-coordinate {m}
-    29.510000000000,  !- Vertex 2 X-coordinate {m}
-    40.570000000000,  !- Vertex 2 Y-coordinate {m}
-    0.000000000000,  !- Vertex 2 Z-coordinate {m}
-    29.510000000000,  !- Vertex 3 X-coordinate {m}
-    19.710000000000,  !- Vertex 3 Y-coordinate {m}
-    0.000000000000,  !- Vertex 3 Z-coordinate {m}
-    29.510000000000,  !- Vertex 4 X-coordinate {m}
     19.710000000000,  !- Vertex 4 Y-coordinate {m}
     3.600000000000;  !- Vertex 4 Z-coordinate {m}
 
@@ -1253,12 +1217,12 @@ SurfaceProperty:OtherSideCoefficients,
   BuildingSurface:Detailed,
     184EBD,  !- Name
     Wall,  !- Surface Type
-    EXT_WALL,  !- Construction Name
-    Allgemein,  !- Zone Name
-    Outdoors,  !- Outside Boundary Condition
-    ,  !- Outside Boundary Condition Object
-    SunExposed,  !- Sun Exposure
-    WindExposed,  !- Wind Exposure
+    ADJ_WALL,  !- Construction Name
+    Allgemein_U2,  !- Zone Name
+    Zone,  !- Outside Boundary Condition
+    Technik_U2,  !- Outside Boundary Condition Object
+    NoSun,  !- Sun Exposure
+    NoWind,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
     4,  !- Number of Vertices
     39.710000000000,  !- Vertex 1 X-coordinate {m}
@@ -1277,12 +1241,12 @@ SurfaceProperty:OtherSideCoefficients,
   BuildingSurface:Detailed,
     68A6CF,  !- Name
     Wall,  !- Surface Type
-    EXT_WALL,  !- Construction Name
-    Allgemein,  !- Zone Name
-    Outdoors,  !- Outside Boundary Condition
-    ,  !- Outside Boundary Condition Object
-    SunExposed,  !- Sun Exposure
-    WindExposed,  !- Wind Exposure
+    ADJ_WALL,  !- Construction Name
+    Allgemein_U2,  !- Zone Name
+    Zone,  !- Outside Boundary Condition
+    Technik_U2,  !- Outside Boundary Condition Object
+    NoSun,  !- Sun Exposure
+    NoWind,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
     4,  !- Number of Vertices
     39.710000000000,  !- Vertex 1 X-coordinate {m}
@@ -1301,12 +1265,12 @@ SurfaceProperty:OtherSideCoefficients,
   BuildingSurface:Detailed,
     90565A,  !- Name
     Wall,  !- Surface Type
-    EXT_WALL,  !- Construction Name
-    Allgemein,  !- Zone Name
-    Outdoors,  !- Outside Boundary Condition
-    ,  !- Outside Boundary Condition Object
-    SunExposed,  !- Sun Exposure
-    WindExposed,  !- Wind Exposure
+    ADJ_WALL,  !- Construction Name
+    Allgemein_U2,  !- Zone Name
+    Zone,  !- Outside Boundary Condition
+    Technik_U2,  !- Outside Boundary Condition Object
+    NoSun,  !- Sun Exposure
+    NoWind,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
     4,  !- Number of Vertices
     41.910000000000,  !- Vertex 1 X-coordinate {m}
@@ -1326,7 +1290,7 @@ SurfaceProperty:OtherSideCoefficients,
     7A7728,  !- Name
     Wall,  !- Surface Type
     EXT_WALL,  !- Construction Name
-    Allgemein,  !- Zone Name
+    Allgemein_U2,  !- Zone Name
     Outdoors,  !- Outside Boundary Condition
     ,  !- Outside Boundary Condition Object
     SunExposed,  !- Sun Exposure
@@ -1349,18 +1313,18 @@ SurfaceProperty:OtherSideCoefficients,
   BuildingSurface:Detailed,
     28156B,  !- Name
     Wall,  !- Surface Type
-    EXT_WALL,  !- Construction Name
-    Allgemein,  !- Zone Name
-    Outdoors,  !- Outside Boundary Condition
-    ,  !- Outside Boundary Condition Object
-    SunExposed,  !- Sun Exposure
-    WindExposed,  !- Wind Exposure
+    ADJ_WALL,  !- Construction Name
+    Allgemein_U2,  !- Zone Name
+    Zone,  !- Outside Boundary Condition
+    Technik_U2,  !- Outside Boundary Condition Object
+    NoSun,  !- Sun Exposure
+    NoWind,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
     4,  !- Number of Vertices
-    33.810000000000,  !- Vertex 1 X-coordinate {m}
+    34.170000000000,  !- Vertex 1 X-coordinate {m}
     3.060000000000,  !- Vertex 1 Y-coordinate {m}
     3.600000000000,  !- Vertex 1 Z-coordinate {m}
-    33.810000000000,  !- Vertex 2 X-coordinate {m}
+    34.170000000000,  !- Vertex 2 X-coordinate {m}
     3.060000000000,  !- Vertex 2 Y-coordinate {m}
     0.000000000000,  !- Vertex 2 Z-coordinate {m}
     39.710000000000,  !- Vertex 3 X-coordinate {m}
@@ -1373,36 +1337,36 @@ SurfaceProperty:OtherSideCoefficients,
   BuildingSurface:Detailed,
     7EA3C7,  !- Name
     Wall,  !- Surface Type
-    EXT_WALL,  !- Construction Name
-    Allgemein,  !- Zone Name
-    Outdoors,  !- Outside Boundary Condition
-    ,  !- Outside Boundary Condition Object
-    SunExposed,  !- Sun Exposure
-    WindExposed,  !- Wind Exposure
+    ADJ_WALL,  !- Construction Name
+    Allgemein_U2,  !- Zone Name
+    Zone,  !- Outside Boundary Condition
+    Technik_U2,  !- Outside Boundary Condition Object
+    NoSun,  !- Sun Exposure
+    NoWind,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
     4,  !- Number of Vertices
-    33.810000000000,  !- Vertex 1 X-coordinate {m}
+    34.170000000000,  !- Vertex 1 X-coordinate {m}
     19.710000000000,  !- Vertex 1 Y-coordinate {m}
     3.600000000000,  !- Vertex 1 Z-coordinate {m}
-    33.810000000000,  !- Vertex 2 X-coordinate {m}
+    34.170000000000,  !- Vertex 2 X-coordinate {m}
     19.710000000000,  !- Vertex 2 Y-coordinate {m}
     0.000000000000,  !- Vertex 2 Z-coordinate {m}
-    33.810000000000,  !- Vertex 3 X-coordinate {m}
+    34.170000000000,  !- Vertex 3 X-coordinate {m}
     3.060000000000,  !- Vertex 3 Y-coordinate {m}
     0.000000000000,  !- Vertex 3 Z-coordinate {m}
-    33.810000000000,  !- Vertex 4 X-coordinate {m}
+    34.170000000000,  !- Vertex 4 X-coordinate {m}
     3.060000000000,  !- Vertex 4 Y-coordinate {m}
     3.600000000000;  !- Vertex 4 Z-coordinate {m}
 
   BuildingSurface:Detailed,
     7BD949,  !- Name
     Wall,  !- Surface Type
-    EXT_WALL,  !- Construction Name
-    Allgemein,  !- Zone Name
-    Outdoors,  !- Outside Boundary Condition
-    ,  !- Outside Boundary Condition Object
-    SunExposed,  !- Sun Exposure
-    WindExposed,  !- Wind Exposure
+    ADJ_WALL,  !- Construction Name
+    Allgemein_U2,  !- Zone Name
+    Zone,  !- Outside Boundary Condition
+    Konzertsaal,  !- Outside Boundary Condition Object
+    NoSun,  !- Sun Exposure
+    NoWind,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
     4,  !- Number of Vertices
     35.620000000000,  !- Vertex 1 X-coordinate {m}
@@ -1422,7 +1386,7 @@ SurfaceProperty:OtherSideCoefficients,
     C1E68F,  !- Name
     Wall,  !- Surface Type
     EXT_WALL,  !- Construction Name
-    Allgemein,  !- Zone Name
+    Allgemein_U2,  !- Zone Name
     Outdoors,  !- Outside Boundary Condition
     ,  !- Outside Boundary Condition Object
     SunExposed,  !- Sun Exposure
@@ -1445,12 +1409,12 @@ SurfaceProperty:OtherSideCoefficients,
   BuildingSurface:Detailed,
     CA8484,  !- Name
     Wall,  !- Surface Type
-    EXT_WALL,  !- Construction Name
-    Allgemein,  !- Zone Name
-    Outdoors,  !- Outside Boundary Condition
-    ,  !- Outside Boundary Condition Object
-    SunExposed,  !- Sun Exposure
-    WindExposed,  !- Wind Exposure
+    ADJ_WALL,  !- Construction Name
+    Allgemein_U2,  !- Zone Name
+    Zone,  !- Outside Boundary Condition
+    Technik_U2,  !- Outside Boundary Condition Object
+    NoSun,  !- Sun Exposure
+    NoWind,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
     4,  !- Number of Vertices
     41.910000000000,  !- Vertex 1 X-coordinate {m}
@@ -1469,12 +1433,12 @@ SurfaceProperty:OtherSideCoefficients,
   BuildingSurface:Detailed,
     45FA55,  !- Name
     Wall,  !- Surface Type
-    EXT_WALL,  !- Construction Name
-    Allgemein,  !- Zone Name
-    Outdoors,  !- Outside Boundary Condition
-    ,  !- Outside Boundary Condition Object
-    SunExposed,  !- Sun Exposure
-    WindExposed,  !- Wind Exposure
+    ADJ_WALL,  !- Construction Name
+    Allgemein_U2,  !- Zone Name
+    Zone,  !- Outside Boundary Condition
+    Konzertsaal,  !- Outside Boundary Condition Object
+    NoSun,  !- Sun Exposure
+    NoWind,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
     4,  !- Number of Vertices
     35.620000000000,  !- Vertex 1 X-coordinate {m}
@@ -1483,10 +1447,10 @@ SurfaceProperty:OtherSideCoefficients,
     35.620000000000,  !- Vertex 2 X-coordinate {m}
     19.710000000000,  !- Vertex 2 Y-coordinate {m}
     0.000000000000,  !- Vertex 2 Z-coordinate {m}
-    33.810000000000,  !- Vertex 3 X-coordinate {m}
+    34.170000000000,  !- Vertex 3 X-coordinate {m}
     19.710000000000,  !- Vertex 3 Y-coordinate {m}
     0.000000000000,  !- Vertex 3 Z-coordinate {m}
-    33.810000000000,  !- Vertex 4 X-coordinate {m}
+    34.170000000000,  !- Vertex 4 X-coordinate {m}
     19.710000000000,  !- Vertex 4 Y-coordinate {m}
     3.600000000000;  !- Vertex 4 Z-coordinate {m}
 
@@ -1494,7 +1458,7 @@ SurfaceProperty:OtherSideCoefficients,
     E4AE2D,  !- Name
     Wall,  !- Surface Type
     EXT_WALL,  !- Construction Name
-    Allgemein,  !- Zone Name
+    Allgemein_U2,  !- Zone Name
     Outdoors,  !- Outside Boundary Condition
     ,  !- Outside Boundary Condition Object
     SunExposed,  !- Sun Exposure
@@ -1518,7 +1482,7 @@ SurfaceProperty:OtherSideCoefficients,
     604917,  !- Name
     Wall,  !- Surface Type
     EXT_WALL,  !- Construction Name
-    Allgemein,  !- Zone Name
+    Allgemein_U2,  !- Zone Name
     Outdoors,  !- Outside Boundary Condition
     ,  !- Outside Boundary Condition Object
     SunExposed,  !- Sun Exposure
@@ -1542,7 +1506,7 @@ SurfaceProperty:OtherSideCoefficients,
     2ADC86,  !- Name
     Wall,  !- Surface Type
     EXT_WALL,  !- Construction Name
-    Allgemein,  !- Zone Name
+    Allgemein_U2,  !- Zone Name
     Outdoors,  !- Outside Boundary Condition
     ,  !- Outside Boundary Condition Object
     SunExposed,  !- Sun Exposure
@@ -1566,12 +1530,632 @@ SurfaceProperty:OtherSideCoefficients,
     17D8FC,  !- Name
     Roof,  !- Surface Type
     EXT_ROOF,  !- Construction Name
-    Allgemein,  !- Zone Name
+    Allgemein_U2,  !- Zone Name
     Outdoors,  !- Outside Boundary Condition
     ,  !- Outside Boundary Condition Object
     SunExposed,  !- Sun Exposure
     WindExposed,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
-    0,  !- Number of Vertices
-    ;  !- Vertex 1 X-coordinate {m}
+    12,  !- Number of Vertices
+    35.620000000000,  !- Vertex 1 X-coordinate {m}
+    42.420000000000,  !- Vertex 1 Y-coordinate {m}
+    3.600000000000,  !- Vertex 1 Z-coordinate {m}
+    35.620000000000,  !- Vertex 2 X-coordinate {m}
+    19.710000000000,  !- Vertex 2 Y-coordinate {m}
+    3.600000000000,  !- Vertex 2 Z-coordinate {m}
+    34.170000000000,  !- Vertex 3 X-coordinate {m}
+    19.710000000000,  !- Vertex 3 Y-coordinate {m}
+    3.600000000000,  !- Vertex 3 Z-coordinate {m}
+    34.170000000000,  !- Vertex 4 X-coordinate {m}
+    3.060000000000,  !- Vertex 4 Y-coordinate {m}
+    3.600000000000,  !- Vertex 4 Z-coordinate {m}
+    39.710000000000,  !- Vertex 5 X-coordinate {m}
+    3.060000000000,  !- Vertex 5 Y-coordinate {m}
+    3.600000000000,  !- Vertex 5 Z-coordinate {m}
+    39.710000000000,  !- Vertex 6 X-coordinate {m}
+    10.410000000000,  !- Vertex 6 Y-coordinate {m}
+    3.600000000000,  !- Vertex 6 Z-coordinate {m}
+    41.910000000000,  !- Vertex 7 X-coordinate {m}
+    10.410000000000,  !- Vertex 7 Y-coordinate {m}
+    3.600000000000,  !- Vertex 7 Z-coordinate {m}
+    41.910000000000,  !- Vertex 8 X-coordinate {m}
+    19.710000000000,  !- Vertex 8 Y-coordinate {m}
+    3.600000000000,  !- Vertex 8 Z-coordinate {m}
+    45.820000000000,  !- Vertex 9 X-coordinate {m}
+    19.710000000000,  !- Vertex 9 Y-coordinate {m}
+    3.600000000000,  !- Vertex 9 Z-coordinate {m}
+    45.820000000000,  !- Vertex 10 X-coordinate {m}
+    40.570000000000,  !- Vertex 10 Y-coordinate {m}
+    3.600000000000,  !- Vertex 10 Z-coordinate {m}
+    38.930000000000,  !- Vertex 11 X-coordinate {m}
+    40.570000000000,  !- Vertex 11 Y-coordinate {m}
+    3.600000000000,  !- Vertex 11 Z-coordinate {m}
+    38.930000000000,  !- Vertex 12 X-coordinate {m}
+    42.420000000000,  !- Vertex 12 Y-coordinate {m}
+    3.600000000000;  !- Vertex 12 Z-coordinate {m}
+
+  BuildingSurface:Detailed,
+    62366A,  !- Name
+    Wall,  !- Surface Type
+    EXT_WALL,  !- Construction Name
+    Konzertsaal,  !- Zone Name
+    Outdoors,  !- Outside Boundary Condition
+    ,  !- Outside Boundary Condition Object
+    SunExposed,  !- Sun Exposure
+    WindExposed,  !- Wind Exposure
+    ,  !- TRNSYS 17 - additional surface data
+    4,  !- Number of Vertices
+    12.170000000000,  !- Vertex 1 X-coordinate {m}
+    40.570000000000,  !- Vertex 1 Y-coordinate {m}
+    9.790000000000,  !- Vertex 1 Z-coordinate {m}
+    12.170000000000,  !- Vertex 2 X-coordinate {m}
+    40.570000000000,  !- Vertex 2 Y-coordinate {m}
+    3.600000000000,  !- Vertex 2 Z-coordinate {m}
+    12.170000000000,  !- Vertex 3 X-coordinate {m}
+    27.570000000000,  !- Vertex 3 Y-coordinate {m}
+    3.600000000000,  !- Vertex 3 Z-coordinate {m}
+    12.170000000000,  !- Vertex 4 X-coordinate {m}
+    27.570000000000,  !- Vertex 4 Y-coordinate {m}
+    9.790000000000;  !- Vertex 4 Z-coordinate {m}
+
+  BuildingSurface:Detailed,
+    63E75A,  !- Name
+    Floor,  !- Surface Type
+    GROUND_FLOOR,  !- Construction Name
+    Konzertsaal,  !- Zone Name
+    Ground,  !- Outside Boundary Condition
+    BOUNDARY=INPUT 1*TGROUND,  !- Outside Boundary Condition Object
+    NoSun,  !- Sun Exposure
+    NoWind,  !- Wind Exposure
+    ,  !- TRNSYS 17 - additional surface data
+    4,  !- Number of Vertices
+    45.820000000000,  !- Vertex 1 X-coordinate {m}
+    42.420000000000,  !- Vertex 1 Y-coordinate {m}
+    3.600000000000,  !- Vertex 1 Z-coordinate {m}
+    45.820000000000,  !- Vertex 2 X-coordinate {m}
+    19.710000000000,  !- Vertex 2 Y-coordinate {m}
+    3.600000000000,  !- Vertex 2 Z-coordinate {m}
+    35.620000000000,  !- Vertex 3 X-coordinate {m}
+    19.710000000000,  !- Vertex 3 Y-coordinate {m}
+    3.600000000000,  !- Vertex 3 Z-coordinate {m}
+    35.620000000000,  !- Vertex 4 X-coordinate {m}
+    42.420000000000,  !- Vertex 4 Y-coordinate {m}
+    3.600000000000;  !- Vertex 4 Z-coordinate {m}
+
+  BuildingSurface:Detailed,
+    F6F09A,  !- Name
+    Wall,  !- Surface Type
+    EXT_WALL,  !- Construction Name
+    Konzertsaal,  !- Zone Name
+    Outdoors,  !- Outside Boundary Condition
+    ,  !- Outside Boundary Condition Object
+    SunExposed,  !- Sun Exposure
+    WindExposed,  !- Wind Exposure
+    ,  !- TRNSYS 17 - additional surface data
+    4,  !- Number of Vertices
+    34.170000000000,  !- Vertex 1 X-coordinate {m}
+    40.570000000000,  !- Vertex 1 Y-coordinate {m}
+    9.100000000000,  !- Vertex 1 Z-coordinate {m}
+    34.170000000000,  !- Vertex 2 X-coordinate {m}
+    40.570000000000,  !- Vertex 2 Y-coordinate {m}
+    3.600000000000,  !- Vertex 2 Z-coordinate {m}
+    12.170000000000,  !- Vertex 3 X-coordinate {m}
+    40.570000000000,  !- Vertex 3 Y-coordinate {m}
+    3.600000000000,  !- Vertex 3 Z-coordinate {m}
+    12.170000000000,  !- Vertex 4 X-coordinate {m}
+    40.570000000000,  !- Vertex 4 Y-coordinate {m}
+    9.100000000000;  !- Vertex 4 Z-coordinate {m}
+
+  BuildingSurface:Detailed,
+    9CB9F1,  !- Name
+    Wall,  !- Surface Type
+    EXT_WALL,  !- Construction Name
+    Konzertsaal,  !- Zone Name
+    Outdoors,  !- Outside Boundary Condition
+    ,  !- Outside Boundary Condition Object
+    SunExposed,  !- Sun Exposure
+    WindExposed,  !- Wind Exposure
+    ,  !- TRNSYS 17 - additional surface data
+    6,  !- Number of Vertices
+    12.170000000000,  !- Vertex 1 X-coordinate {m}
+    27.570000000000,  !- Vertex 1 Y-coordinate {m}
+    9.100000000000,  !- Vertex 1 Z-coordinate {m}
+    12.170000000000,  !- Vertex 2 X-coordinate {m}
+    27.570000000000,  !- Vertex 2 Y-coordinate {m}
+    3.600000000000,  !- Vertex 2 Z-coordinate {m}
+    34.170000000000,  !- Vertex 3 X-coordinate {m}
+    27.570000000000,  !- Vertex 3 Y-coordinate {m}
+    3.600000000000,  !- Vertex 3 Z-coordinate {m}
+    34.170000000000,  !- Vertex 4 X-coordinate {m}
+    27.570000000000,  !- Vertex 4 Y-coordinate {m}
+    13.100000000000,  !- Vertex 4 Z-coordinate {m}
+    18.670000000000,  !- Vertex 5 X-coordinate {m}
+    27.570000000000,  !- Vertex 5 Y-coordinate {m}
+    13.100000000000,  !- Vertex 5 Z-coordinate {m}
+    18.670000000000,  !- Vertex 6 X-coordinate {m}
+    27.570000000000,  !- Vertex 6 Y-coordinate {m}
+    9.100000000000;  !- Vertex 6 Z-coordinate {m}
+
+  BuildingSurface:Detailed,
+    915A31,  !- Name
+    Wall,  !- Surface Type
+    EXT_WALL,  !- Construction Name
+    Konzertsaal,  !- Zone Name
+    Outdoors,  !- Outside Boundary Condition
+    ,  !- Outside Boundary Condition Object
+    SunExposed,  !- Sun Exposure
+    WindExposed,  !- Wind Exposure
+    ,  !- TRNSYS 17 - additional surface data
+    4,  !- Number of Vertices
+    18.670000000000,  !- Vertex 1 X-coordinate {m}
+    40.570000000000,  !- Vertex 1 Y-coordinate {m}
+    13.100000000000,  !- Vertex 1 Z-coordinate {m}
+    18.670000000000,  !- Vertex 2 X-coordinate {m}
+    40.570000000000,  !- Vertex 2 Y-coordinate {m}
+    9.100000000000,  !- Vertex 2 Z-coordinate {m}
+    18.670000000000,  !- Vertex 3 X-coordinate {m}
+    27.570000000000,  !- Vertex 3 Y-coordinate {m}
+    9.100000000000,  !- Vertex 3 Z-coordinate {m}
+    18.670000000000,  !- Vertex 4 X-coordinate {m}
+    27.570000000000,  !- Vertex 4 Y-coordinate {m}
+    13.100000000000;  !- Vertex 4 Z-coordinate {m}
  
+
+  BuildingSurface:Detailed,
+    53DF63,  !- Name
+    Wall,  !- Surface Type
+    EXT_WALL,  !- Construction Name
+    Konzertsaal,  !- Zone Name
+    Outdoors,  !- Outside Boundary Condition
+    ,  !- Outside Boundary Condition Object
+    SunExposed,  !- Sun Exposure
+    WindExposed,  !- Wind Exposure
+    ,  !- TRNSYS 17 - additional surface data
+    8,  !- Number of Vertices
+    45.820000000000,  !- Vertex 1 X-coordinate {m}
+    19.710000000000,  !- Vertex 1 Y-coordinate {m}
+    13.100000000000,  !- Vertex 1 Z-coordinate {m}
+    45.820000000000,  !- Vertex 2 X-coordinate {m}
+    19.710000000000,  !- Vertex 2 Y-coordinate {m}
+    3.600000000000,  !- Vertex 2 Z-coordinate {m}
+    45.820000000000,  !- Vertex 3 X-coordinate {m}
+    42.420000000000,  !- Vertex 3 Y-coordinate {m}
+    3.600000000000,  !- Vertex 3 Z-coordinate {m}
+    45.820000000000,  !- Vertex 4 X-coordinate {m}
+    42.420000000000,  !- Vertex 4 Y-coordinate {m}
+    13.100000000000,  !- Vertex 4 Z-coordinate {m}
+    45.820000000000,  !- Vertex 5 X-coordinate {m}
+    40.570000000000,  !- Vertex 5 Y-coordinate {m}
+    13.100000000000,  !- Vertex 5 Z-coordinate {m}
+    45.820000000000,  !- Vertex 6 X-coordinate {m}
+    40.570000000000,  !- Vertex 6 Y-coordinate {m}
+    20.600000000000,  !- Vertex 6 Z-coordinate {m}
+    45.820000000000,  !- Vertex 7 X-coordinate {m}
+    27.570000000000,  !- Vertex 7 Y-coordinate {m}
+    20.600000000000,  !- Vertex 7 Z-coordinate {m}
+    45.820000000000,  !- Vertex 8 X-coordinate {m}
+    27.570000000000,  !- Vertex 8 Y-coordinate {m}
+    13.100000000000;  !- Vertex 8 Z-coordinate {m}
+
+  BuildingSurface:Detailed,
+    7E3D7D,  !- Name
+    Wall,  !- Surface Type
+    EXT_WALL,  !- Construction Name
+    Konzertsaal,  !- Zone Name
+    Outdoors,  !- Outside Boundary Condition
+    ,  !- Outside Boundary Condition Object
+    SunExposed,  !- Sun Exposure
+    WindExposed,  !- Wind Exposure
+    ,  !- TRNSYS 17 - additional surface data
+    4,  !- Number of Vertices
+    45.820000000000,  !- Vertex 1 X-coordinate {m}
+    42.420000000000,  !- Vertex 1 Y-coordinate {m}
+    9.100000000000,  !- Vertex 1 Z-coordinate {m}
+    45.820000000000,  !- Vertex 2 X-coordinate {m}
+    42.420000000000,  !- Vertex 2 Y-coordinate {m}
+    3.600000000000,  !- Vertex 2 Z-coordinate {m}
+    34.170000000000,  !- Vertex 3 X-coordinate {m}
+    42.420000000000,  !- Vertex 3 Y-coordinate {m}
+    3.600000000000,  !- Vertex 3 Z-coordinate {m}
+    34.170000000000,  !- Vertex 4 X-coordinate {m}
+    42.420000000000,  !- Vertex 4 Y-coordinate {m}
+    9.100000000000;  !- Vertex 4 Z-coordinate {m}
+
+  BuildingSurface:Detailed,
+    880510,  !- Name
+    Wall,  !- Surface Type
+    EXT_WALL,  !- Construction Name
+    Konzertsaal,  !- Zone Name
+    Outdoors,  !- Outside Boundary Condition
+    ,  !- Outside Boundary Condition Object
+    SunExposed,  !- Sun Exposure
+    WindExposed,  !- Wind Exposure
+    ,  !- TRNSYS 17 - additional surface data
+    4,  !- Number of Vertices
+    35.620000000000,  !- Vertex 1 X-coordinate {m}
+    42.420000000000,  !- Vertex 1 Y-coordinate {m}
+    7.900000000000,  !- Vertex 1 Z-coordinate {m}
+    35.620000000000,  !- Vertex 2 X-coordinate {m}
+    42.420000000000,  !- Vertex 2 Y-coordinate {m}
+    3.600000000000,  !- Vertex 2 Z-coordinate {m}
+    35.620000000000,  !- Vertex 3 X-coordinate {m}
+    19.710000000000,  !- Vertex 3 Y-coordinate {m}
+    3.600000000000,  !- Vertex 3 Z-coordinate {m}
+    35.620000000000,  !- Vertex 4 X-coordinate {m}
+    19.710000000000,  !- Vertex 4 Y-coordinate {m}
+    7.900000000000;  !- Vertex 4 Z-coordinate {m}
+
+  BuildingSurface:Detailed,
+    27654D,  !- Name
+    Wall,  !- Surface Type
+    EXT_WALL,  !- Construction Name
+    Konzertsaal,  !- Zone Name
+    Outdoors,  !- Outside Boundary Condition
+    ,  !- Outside Boundary Condition Object
+    SunExposed,  !- Sun Exposure
+    WindExposed,  !- Wind Exposure
+    ,  !- TRNSYS 17 - additional surface data
+    4,  !- Number of Vertices
+    34.170000000000,  !- Vertex 1 X-coordinate {m}
+    42.420000000000,  !- Vertex 1 Y-coordinate {m}
+    9.100000000000,  !- Vertex 1 Z-coordinate {m}
+    34.170000000000,  !- Vertex 2 X-coordinate {m}
+    42.420000000000,  !- Vertex 2 Y-coordinate {m}
+    3.600000000000,  !- Vertex 2 Z-coordinate {m}
+    34.170000000000,  !- Vertex 3 X-coordinate {m}
+    40.570000000000,  !- Vertex 3 Y-coordinate {m}
+    3.600000000000,  !- Vertex 3 Z-coordinate {m}
+    34.170000000000,  !- Vertex 4 X-coordinate {m}
+    40.570000000000,  !- Vertex 4 Y-coordinate {m}
+    9.100000000000;  !- Vertex 4 Z-coordinate {m}
+
+  BuildingSurface:Detailed,
+    745612,  !- Name
+    Wall,  !- Surface Type
+    EXT_WALL,  !- Construction Name
+    Konzertsaal,  !- Zone Name
+    Outdoors,  !- Outside Boundary Condition
+    ,  !- Outside Boundary Condition Object
+    SunExposed,  !- Sun Exposure
+    WindExposed,  !- Wind Exposure
+    ,  !- TRNSYS 17 - additional surface data
+    4,  !- Number of Vertices
+    33.810000000000,  !- Vertex 1 X-coordinate {m}
+    19.710000000000,  !- Vertex 1 Y-coordinate {m}
+    13.100000000000,  !- Vertex 1 Z-coordinate {m}
+    33.810000000000,  !- Vertex 2 X-coordinate {m}
+    19.710000000000,  !- Vertex 2 Y-coordinate {m}
+    3.600000000000,  !- Vertex 2 Z-coordinate {m}
+    45.820000000000,  !- Vertex 3 X-coordinate {m}
+    19.710000000000,  !- Vertex 3 Y-coordinate {m}
+    3.600000000000,  !- Vertex 3 Z-coordinate {m}
+    45.820000000000,  !- Vertex 4 X-coordinate {m}
+    19.710000000000,  !- Vertex 4 Y-coordinate {m}
+    13.100000000000;  !- Vertex 4 Z-coordinate {m}
+
+  BuildingSurface:Detailed,
+    9B5A35,  !- Name
+    Wall,  !- Surface Type
+    EXT_WALL,  !- Construction Name
+    Konzertsaal,  !- Zone Name
+    Outdoors,  !- Outside Boundary Condition
+    ,  !- Outside Boundary Condition Object
+    SunExposed,  !- Sun Exposure
+    WindExposed,  !- Wind Exposure
+    ,  !- TRNSYS 17 - additional surface data
+    4,  !- Number of Vertices
+    34.170000000000,  !- Vertex 1 X-coordinate {m}
+    27.570000000000,  !- Vertex 1 Y-coordinate {m}
+    13.100000000000,  !- Vertex 1 Z-coordinate {m}
+    34.170000000000,  !- Vertex 2 X-coordinate {m}
+    27.570000000000,  !- Vertex 2 Y-coordinate {m}
+    3.600000000000,  !- Vertex 2 Z-coordinate {m}
+    34.170000000000,  !- Vertex 3 X-coordinate {m}
+    19.710000000000,  !- Vertex 3 Y-coordinate {m}
+    3.600000000000,  !- Vertex 3 Z-coordinate {m}
+    34.170000000000,  !- Vertex 4 X-coordinate {m}
+    19.710000000000,  !- Vertex 4 Y-coordinate {m}
+    13.100000000000;  !- Vertex 4 Z-coordinate {m}
+
+  BuildingSurface:Detailed,
+    73780B,  !- Name
+    Roof,  !- Surface Type
+    EXT_ROOF,  !- Construction Name
+    Konzertsaal,  !- Zone Name
+    Outdoors,  !- Outside Boundary Condition
+    ,  !- Outside Boundary Condition Object
+    SunExposed,  !- Sun Exposure
+    WindExposed,  !- Wind Exposure
+    ,  !- TRNSYS 17 - additional surface data
+    4,  !- Number of Vertices
+    29.510000000000,  !- Vertex 1 X-coordinate {m}
+    27.570000000000,  !- Vertex 1 Y-coordinate {m}
+    3.600000000000,  !- Vertex 1 Z-coordinate {m}
+    29.510000000000,  !- Vertex 2 X-coordinate {m}
+    19.710000000000,  !- Vertex 2 Y-coordinate {m}
+    3.600000000000,  !- Vertex 2 Z-coordinate {m}
+    33.810000000000,  !- Vertex 3 X-coordinate {m}
+    19.710000000000,  !- Vertex 3 Y-coordinate {m}
+    3.600000000000,  !- Vertex 3 Z-coordinate {m}
+    33.810000000000,  !- Vertex 4 X-coordinate {m}
+    27.570000000000,  !- Vertex 4 Y-coordinate {m}
+    3.600000000000;  !- Vertex 4 Z-coordinate {m}
+
+  BuildingSurface:Detailed,
+    85BDDD,  !- Name
+    Wall,  !- Surface Type
+    EXT_WALL,  !- Construction Name
+    Konzertsaal,  !- Zone Name
+    Outdoors,  !- Outside Boundary Condition
+    ,  !- Outside Boundary Condition Object
+    SunExposed,  !- Sun Exposure
+    WindExposed,  !- Wind Exposure
+    ,  !- TRNSYS 17 - additional surface data
+    4,  !- Number of Vertices
+    29.510000000000,  !- Vertex 1 X-coordinate {m}
+    40.570000000000,  !- Vertex 1 Y-coordinate {m}
+    3.600000000000,  !- Vertex 1 Z-coordinate {m}
+    29.510000000000,  !- Vertex 2 X-coordinate {m}
+    40.570000000000,  !- Vertex 2 Y-coordinate {m}
+    0.000000000000,  !- Vertex 2 Z-coordinate {m}
+    29.510000000000,  !- Vertex 3 X-coordinate {m}
+    19.710000000000,  !- Vertex 3 Y-coordinate {m}
+    0.000000000000,  !- Vertex 3 Z-coordinate {m}
+    29.510000000000,  !- Vertex 4 X-coordinate {m}
+    19.710000000000,  !- Vertex 4 Y-coordinate {m}
+    3.600000000000;  !- Vertex 4 Z-coordinate {m}
+
+  BuildingSurface:Detailed,
+    7C8BF1,  !- Name
+    Floor,  !- Surface Type
+    GROUND_FLOOR,  !- Construction Name
+    Konzertsaal,  !- Zone Name
+    Ground,  !- Outside Boundary Condition
+    BOUNDARY=INPUT 1*TGROUND,  !- Outside Boundary Condition Object
+    NoSun,  !- Sun Exposure
+    NoWind,  !- Wind Exposure
+    ,  !- TRNSYS 17 - additional surface data
+    4,  !- Number of Vertices
+    29.510000000000,  !- Vertex 1 X-coordinate {m}
+    40.570000000000,  !- Vertex 1 Y-coordinate {m}
+    3.600000000000,  !- Vertex 1 Z-coordinate {m}
+    29.510000000000,  !- Vertex 2 X-coordinate {m}
+    27.570000000000,  !- Vertex 2 Y-coordinate {m}
+    3.600000000000,  !- Vertex 2 Z-coordinate {m}
+    12.170000000000,  !- Vertex 3 X-coordinate {m}
+    27.570000000000,  !- Vertex 3 Y-coordinate {m}
+    3.600000000000,  !- Vertex 3 Z-coordinate {m}
+    12.170000000000,  !- Vertex 4 X-coordinate {m}
+    40.570000000000,  !- Vertex 4 Y-coordinate {m}
+    3.600000000000;  !- Vertex 4 Z-coordinate {m}
+
+  BuildingSurface:Detailed,
+    FB05FC,  !- Name
+    Wall,  !- Surface Type
+    EXT_WALL,  !- Construction Name
+    Konzertsaal,  !- Zone Name
+    Outdoors,  !- Outside Boundary Condition
+    ,  !- Outside Boundary Condition Object
+    SunExposed,  !- Sun Exposure
+    WindExposed,  !- Wind Exposure
+    ,  !- TRNSYS 17 - additional surface data
+    4,  !- Number of Vertices
+    35.620000000000,  !- Vertex 1 X-coordinate {m}
+    19.710000000000,  !- Vertex 1 Y-coordinate {m}
+    3.600000000000,  !- Vertex 1 Z-coordinate {m}
+    35.620000000000,  !- Vertex 2 X-coordinate {m}
+    19.710000000000,  !- Vertex 2 Y-coordinate {m}
+    0.000000000000,  !- Vertex 2 Z-coordinate {m}
+    35.620000000000,  !- Vertex 3 X-coordinate {m}
+    42.420000000000,  !- Vertex 3 Y-coordinate {m}
+    0.000000000000,  !- Vertex 3 Z-coordinate {m}
+    35.620000000000,  !- Vertex 4 X-coordinate {m}
+    42.420000000000,  !- Vertex 4 Y-coordinate {m}
+    3.600000000000;  !- Vertex 4 Z-coordinate {m}
+
+  BuildingSurface:Detailed,
+    C36E72,  !- Name
+    Roof,  !- Surface Type
+    EXT_ROOF,  !- Construction Name
+    Konzertsaal,  !- Zone Name
+    Outdoors,  !- Outside Boundary Condition
+    ,  !- Outside Boundary Condition Object
+    SunExposed,  !- Sun Exposure
+    WindExposed,  !- Wind Exposure
+    ,  !- TRNSYS 17 - additional surface data
+    4,  !- Number of Vertices
+    12.170000000000,  !- Vertex 1 X-coordinate {m}
+    40.570000000000,  !- Vertex 1 Y-coordinate {m}
+    9.100000000000,  !- Vertex 1 Z-coordinate {m}
+    12.170000000000,  !- Vertex 2 X-coordinate {m}
+    27.570000000000,  !- Vertex 2 Y-coordinate {m}
+    9.100000000000,  !- Vertex 2 Z-coordinate {m}
+    18.670000000000,  !- Vertex 3 X-coordinate {m}
+    27.570000000000,  !- Vertex 3 Y-coordinate {m}
+    9.100000000000,  !- Vertex 3 Z-coordinate {m}
+    18.670000000000,  !- Vertex 4 X-coordinate {m}
+    40.570000000000,  !- Vertex 4 Y-coordinate {m}
+    9.100000000000;  !- Vertex 4 Z-coordinate {m}
+ 
+
+  BuildingSurface:Detailed,
+    BC6416,  !- Name
+    Roof,  !- Surface Type
+    EXT_ROOF,  !- Construction Name
+    Konzertsaal,  !- Zone Name
+    Outdoors,  !- Outside Boundary Condition
+    ,  !- Outside Boundary Condition Object
+    SunExposed,  !- Sun Exposure
+    WindExposed,  !- Wind Exposure
+    ,  !- TRNSYS 17 - additional surface data
+    4,  !- Number of Vertices
+    34.170000000000,  !- Vertex 1 X-coordinate {m}
+    40.570000000000,  !- Vertex 1 Y-coordinate {m}
+    20.600000000000,  !- Vertex 1 Z-coordinate {m}
+    34.170000000000,  !- Vertex 2 X-coordinate {m}
+    27.570000000000,  !- Vertex 2 Y-coordinate {m}
+    20.600000000000,  !- Vertex 2 Z-coordinate {m}
+    45.820000000000,  !- Vertex 3 X-coordinate {m}
+    27.570000000000,  !- Vertex 3 Y-coordinate {m}
+    20.600000000000,  !- Vertex 3 Z-coordinate {m}
+    45.820000000000,  !- Vertex 4 X-coordinate {m}
+    40.570000000000,  !- Vertex 4 Y-coordinate {m}
+    20.600000000000;  !- Vertex 4 Z-coordinate {m}
+ 
+
+  BuildingSurface:Detailed,
+    5C1F9A,  !- Name
+    Roof,  !- Surface Type
+    EXT_ROOF,  !- Construction Name
+    Konzertsaal,  !- Zone Name
+    Outdoors,  !- Outside Boundary Condition
+    ,  !- Outside Boundary Condition Object
+    SunExposed,  !- Sun Exposure
+    WindExposed,  !- Wind Exposure
+    ,  !- TRNSYS 17 - additional surface data
+    8,  !- Number of Vertices
+    18.670000000000,  !- Vertex 1 X-coordinate {m}
+    40.570000000000,  !- Vertex 1 Y-coordinate {m}
+    13.100000000000,  !- Vertex 1 Z-coordinate {m}
+    18.670000000000,  !- Vertex 2 X-coordinate {m}
+    27.570000000000,  !- Vertex 2 Y-coordinate {m}
+    13.100000000000,  !- Vertex 2 Z-coordinate {m}
+    34.170000000000,  !- Vertex 3 X-coordinate {m}
+    27.570000000000,  !- Vertex 3 Y-coordinate {m}
+    13.100000000000,  !- Vertex 3 Z-coordinate {m}
+    34.170000000000,  !- Vertex 4 X-coordinate {m}
+    19.710000000000,  !- Vertex 4 Y-coordinate {m}
+    13.100000000000,  !- Vertex 4 Z-coordinate {m}
+    45.820000000000,  !- Vertex 5 X-coordinate {m}
+    19.710000000000,  !- Vertex 5 Y-coordinate {m}
+    13.100000000000,  !- Vertex 5 Z-coordinate {m}
+    45.820000000000,  !- Vertex 6 X-coordinate {m}
+    27.570000000000,  !- Vertex 6 Y-coordinate {m}
+    13.100000000000,  !- Vertex 6 Z-coordinate {m}
+    34.170000000000,  !- Vertex 7 X-coordinate {m}
+    27.570000000000,  !- Vertex 7 Y-coordinate {m}
+    13.100000000000,  !- Vertex 7 Z-coordinate {m}
+    34.170000000000,  !- Vertex 8 X-coordinate {m}
+    40.570000000000,  !- Vertex 8 Y-coordinate {m}
+    13.100000000000;  !- Vertex 8 Z-coordinate {m}
+
+  BuildingSurface:Detailed,
+    3660A4,  !- Name
+    Roof,  !- Surface Type
+    EXT_ROOF,  !- Construction Name
+    Konzertsaal,  !- Zone Name
+    Outdoors,  !- Outside Boundary Condition
+    ,  !- Outside Boundary Condition Object
+    SunExposed,  !- Sun Exposure
+    WindExposed,  !- Wind Exposure
+    ,  !- TRNSYS 17 - additional surface data
+    4,  !- Number of Vertices
+    34.170000000000,  !- Vertex 1 X-coordinate {m}
+    42.420000000000,  !- Vertex 1 Y-coordinate {m}
+    13.100000000000,  !- Vertex 1 Z-coordinate {m}
+    34.170000000000,  !- Vertex 2 X-coordinate {m}
+    40.570000000000,  !- Vertex 2 Y-coordinate {m}
+    13.100000000000,  !- Vertex 2 Z-coordinate {m}
+    45.820000000000,  !- Vertex 3 X-coordinate {m}
+    40.570000000000,  !- Vertex 3 Y-coordinate {m}
+    13.100000000000,  !- Vertex 3 Z-coordinate {m}
+    45.820000000000,  !- Vertex 4 X-coordinate {m}
+    42.420000000000,  !- Vertex 4 Y-coordinate {m}
+    13.100000000000;  !- Vertex 4 Z-coordinate {m}
+ 
+
+  BuildingSurface:Detailed,
+    A2B773,  !- Name
+    Wall,  !- Surface Type
+    EXT_WALL,  !- Construction Name
+    Konzertsaal,  !- Zone Name
+    Outdoors,  !- Outside Boundary Condition
+    ,  !- Outside Boundary Condition Object
+    SunExposed,  !- Sun Exposure
+    WindExposed,  !- Wind Exposure
+    ,  !- TRNSYS 17 - additional surface data
+    4,  !- Number of Vertices
+    45.820000000000,  !- Vertex 1 X-coordinate {m}
+    40.570000000000,  !- Vertex 1 Y-coordinate {m}
+    18.360000000000,  !- Vertex 1 Z-coordinate {m}
+    45.820000000000,  !- Vertex 2 X-coordinate {m}
+    40.570000000000,  !- Vertex 2 Y-coordinate {m}
+    13.100000000000,  !- Vertex 2 Z-coordinate {m}
+    34.170000000000,  !- Vertex 3 X-coordinate {m}
+    40.570000000000,  !- Vertex 3 Y-coordinate {m}
+    13.100000000000,  !- Vertex 3 Z-coordinate {m}
+    34.170000000000,  !- Vertex 4 X-coordinate {m}
+    40.570000000000,  !- Vertex 4 Y-coordinate {m}
+    18.360000000000;  !- Vertex 4 Z-coordinate {m}
+
+  BuildingSurface:Detailed,
+    95E3D5,  !- Name
+    Wall,  !- Surface Type
+    EXT_WALL,  !- Construction Name
+    Konzertsaal,  !- Zone Name
+    Outdoors,  !- Outside Boundary Condition
+    ,  !- Outside Boundary Condition Object
+    SunExposed,  !- Sun Exposure
+    WindExposed,  !- Wind Exposure
+    ,  !- TRNSYS 17 - additional surface data
+    4,  !- Number of Vertices
+    34.170000000000,  !- Vertex 1 X-coordinate {m}
+    27.570000000000,  !- Vertex 1 Y-coordinate {m}
+    20.600000000000,  !- Vertex 1 Z-coordinate {m}
+    34.170000000000,  !- Vertex 2 X-coordinate {m}
+    27.570000000000,  !- Vertex 2 Y-coordinate {m}
+    13.100000000000,  !- Vertex 2 Z-coordinate {m}
+    45.820000000000,  !- Vertex 3 X-coordinate {m}
+    27.570000000000,  !- Vertex 3 Y-coordinate {m}
+    13.100000000000,  !- Vertex 3 Z-coordinate {m}
+    45.820000000000,  !- Vertex 4 X-coordinate {m}
+    27.570000000000,  !- Vertex 4 Y-coordinate {m}
+    20.600000000000;  !- Vertex 4 Z-coordinate {m}
+
+  BuildingSurface:Detailed,
+    55950E,  !- Name
+    Wall,  !- Surface Type
+    EXT_WALL,  !- Construction Name
+    Konzertsaal,  !- Zone Name
+    Outdoors,  !- Outside Boundary Condition
+    ,  !- Outside Boundary Condition Object
+    SunExposed,  !- Sun Exposure
+    WindExposed,  !- Wind Exposure
+    ,  !- TRNSYS 17 - additional surface data
+    4,  !- Number of Vertices
+    34.170000000000,  !- Vertex 1 X-coordinate {m}
+    40.570000000000,  !- Vertex 1 Y-coordinate {m}
+    20.600000000000,  !- Vertex 1 Z-coordinate {m}
+    34.170000000000,  !- Vertex 2 X-coordinate {m}
+    40.570000000000,  !- Vertex 2 Y-coordinate {m}
+    13.100000000000,  !- Vertex 2 Z-coordinate {m}
+    34.170000000000,  !- Vertex 3 X-coordinate {m}
+    27.570000000000,  !- Vertex 3 Y-coordinate {m}
+    13.100000000000,  !- Vertex 3 Z-coordinate {m}
+    34.170000000000,  !- Vertex 4 X-coordinate {m}
+    27.570000000000,  !- Vertex 4 Y-coordinate {m}
+    20.600000000000;  !- Vertex 4 Z-coordinate {m}
+
+  BuildingSurface:Detailed,
+    6F6B82,  !- Name
+    Wall,  !- Surface Type
+    ADJ_WALL,  !- Construction Name
+    Konzertsaal,  !- Zone Name
+    Zone,  !- Outside Boundary Condition
+    Allgemein_U2,  !- Outside Boundary Condition Object
+    NoSun,  !- Sun Exposure
+    NoWind,  !- Wind Exposure
+    ,  !- TRNSYS 17 - additional surface data
+    4,  !- Number of Vertices
+    29.510000000000,  !- Vertex 1 X-coordinate {m}
+    19.710000000000,  !- Vertex 1 Y-coordinate {m}
+    3.600000000000,  !- Vertex 1 Z-coordinate {m}
+    29.510000000000,  !- Vertex 2 X-coordinate {m}
+    19.710000000000,  !- Vertex 2 Y-coordinate {m}
+    0.000000000000,  !- Vertex 2 Z-coordinate {m}
+    34.170000000000,  !- Vertex 3 X-coordinate {m}
+    19.710000000000,  !- Vertex 3 Y-coordinate {m}
+    0.000000000000,  !- Vertex 3 Z-coordinate {m}
+    34.170000000000,  !- Vertex 4 X-coordinate {m}
+    19.710000000000,  !- Vertex 4 Y-coordinate {m}
+    3.600000000000;  !- Vertex 4 Z-coordinate {m}

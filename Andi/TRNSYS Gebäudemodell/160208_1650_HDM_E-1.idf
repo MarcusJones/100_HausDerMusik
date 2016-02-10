@@ -792,19 +792,9 @@ SurfaceProperty:OtherSideCoefficients,
     NoSun,  !- Sun Exposure
     NoWind,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
-    4,  !- Number of Vertices
-    29.510000000000,  !- Vertex 1 X-coordinate {m}
-    19.710000000000,  !- Vertex 1 Y-coordinate {m}
-    3.600000000000,  !- Vertex 1 Z-coordinate {m}
-    29.510000000000,  !- Vertex 2 X-coordinate {m}
-    19.710000000000,  !- Vertex 2 Y-coordinate {m}
-    0.000000000000,  !- Vertex 2 Z-coordinate {m}
-    29.510000000000,  !- Vertex 3 X-coordinate {m}
-    40.570000000000,  !- Vertex 3 Y-coordinate {m}
-    0.000000000000,  !- Vertex 3 Z-coordinate {m}
-    29.510000000000,  !- Vertex 4 X-coordinate {m}
-    40.570000000000,  !- Vertex 4 Y-coordinate {m}
-    3.600000000000;  !- Vertex 4 Z-coordinate {m}
+    0,  !- Number of Vertices
+    ;  !- Vertex 1 X-coordinate {m}
+ 
 
   BuildingSurface:Detailed,
     71BEF0,  !- Name
@@ -1045,49 +1035,9 @@ SurfaceProperty:OtherSideCoefficients,
     SunExposed,  !- Sun Exposure
     WindExposed,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
-    14,  !- Number of Vertices
-    10.330000000000,  !- Vertex 1 X-coordinate {m}
-    39.470000000000,  !- Vertex 1 Y-coordinate {m}
-    9.070000000000,  !- Vertex 1 Z-coordinate {m}
-    10.330000000000,  !- Vertex 2 X-coordinate {m}
-    25.970000000000,  !- Vertex 2 Y-coordinate {m}
-    9.070000000000,  !- Vertex 2 Z-coordinate {m}
-    26.510000000000,  !- Vertex 3 X-coordinate {m}
-    25.970000000000,  !- Vertex 3 Y-coordinate {m}
-    9.070000000000,  !- Vertex 3 Z-coordinate {m}
-    26.510000000000,  !- Vertex 4 X-coordinate {m}
-    24.870000000000,  !- Vertex 4 Y-coordinate {m}
-    9.070000000000,  !- Vertex 4 Z-coordinate {m}
-    29.510000000000,  !- Vertex 5 X-coordinate {m}
-    24.870000000000,  !- Vertex 5 Y-coordinate {m}
-    9.070000000000,  !- Vertex 5 Z-coordinate {m}
-    29.510000000000,  !- Vertex 6 X-coordinate {m}
-    19.710000000000,  !- Vertex 6 Y-coordinate {m}
-    9.070000000000,  !- Vertex 6 Z-coordinate {m}
-    41.910000000000,  !- Vertex 7 X-coordinate {m}
-    19.710000000000,  !- Vertex 7 Y-coordinate {m}
-    9.070000000000,  !- Vertex 7 Z-coordinate {m}
-    41.910000000000,  !- Vertex 8 X-coordinate {m}
-    25.970000000000,  !- Vertex 8 Y-coordinate {m}
-    9.070000000000,  !- Vertex 8 Z-coordinate {m}
-    45.820000000000,  !- Vertex 9 X-coordinate {m}
-    25.970000000000,  !- Vertex 9 Y-coordinate {m}
-    9.070000000000,  !- Vertex 9 Z-coordinate {m}
-    45.820000000000,  !- Vertex 10 X-coordinate {m}
-    42.420000000000,  !- Vertex 10 Y-coordinate {m}
-    9.070000000000,  !- Vertex 10 Z-coordinate {m}
-    34.170000000000,  !- Vertex 11 X-coordinate {m}
-    42.420000000000,  !- Vertex 11 Y-coordinate {m}
-    9.070000000000,  !- Vertex 11 Z-coordinate {m}
-    34.170000000000,  !- Vertex 12 X-coordinate {m}
-    40.570000000000,  !- Vertex 12 Y-coordinate {m}
-    9.070000000000,  !- Vertex 12 Z-coordinate {m}
-    26.510000000000,  !- Vertex 13 X-coordinate {m}
-    40.570000000000,  !- Vertex 13 Y-coordinate {m}
-    9.070000000000,  !- Vertex 13 Z-coordinate {m}
-    26.510000000000,  !- Vertex 14 X-coordinate {m}
-    39.470000000000,  !- Vertex 14 Y-coordinate {m}
-    9.070000000000;  !- Vertex 14 Z-coordinate {m}
+    0,  !- Number of Vertices
+    ;  !- Vertex 1 X-coordinate {m}
+ 
 
   BuildingSurface:Detailed,
     AD3F2D,  !- Name
@@ -1147,19 +1097,9 @@ SurfaceProperty:OtherSideCoefficients,
     NoSun,  !- Sun Exposure
     NoWind,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
-    4,  !- Number of Vertices
-    29.510000000000,  !- Vertex 1 X-coordinate {m}
-    19.710000000000,  !- Vertex 1 Y-coordinate {m}
-    9.070000000000,  !- Vertex 1 Z-coordinate {m}
-    29.510000000000,  !- Vertex 2 X-coordinate {m}
-    19.710000000000,  !- Vertex 2 Y-coordinate {m}
-    3.600000000000,  !- Vertex 2 Z-coordinate {m}
-    41.910000000000,  !- Vertex 3 X-coordinate {m}
-    19.710000000000,  !- Vertex 3 Y-coordinate {m}
-    3.600000000000,  !- Vertex 3 Z-coordinate {m}
-    41.910000000000,  !- Vertex 4 X-coordinate {m}
-    19.710000000000,  !- Vertex 4 Y-coordinate {m}
-    9.070000000000;  !- Vertex 4 Z-coordinate {m}
+    0,  !- Number of Vertices
+    ;  !- Vertex 1 X-coordinate {m}
+ 
 
   BuildingSurface:Detailed,
     2D7F3D,  !- Name
@@ -1292,19 +1232,9 @@ SurfaceProperty:OtherSideCoefficients,
     SunExposed,  !- Sun Exposure
     WindExposed,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
-    4,  !- Number of Vertices
-    45.820000000000,  !- Vertex 1 X-coordinate {m}
-    40.570000000000,  !- Vertex 1 Y-coordinate {m}
-    3.600000000000,  !- Vertex 1 Z-coordinate {m}
-    45.820000000000,  !- Vertex 2 X-coordinate {m}
-    40.570000000000,  !- Vertex 2 Y-coordinate {m}
-    0.000000000000,  !- Vertex 2 Z-coordinate {m}
-    39.930000000000,  !- Vertex 3 X-coordinate {m}
-    40.570000000000,  !- Vertex 3 Y-coordinate {m}
-    0.000000000000,  !- Vertex 3 Z-coordinate {m}
-    39.930000000000,  !- Vertex 4 X-coordinate {m}
-    40.570000000000,  !- Vertex 4 Y-coordinate {m}
-    3.600000000000;  !- Vertex 4 Z-coordinate {m}
+    0,  !- Number of Vertices
+    ;  !- Vertex 1 X-coordinate {m}
+ 
 
   BuildingSurface:Detailed,
     28156B,  !- Name
@@ -1388,19 +1318,9 @@ SurfaceProperty:OtherSideCoefficients,
     SunExposed,  !- Sun Exposure
     WindExposed,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
-    4,  !- Number of Vertices
-    45.820000000000,  !- Vertex 1 X-coordinate {m}
-    19.710000000000,  !- Vertex 1 Y-coordinate {m}
-    3.600000000000,  !- Vertex 1 Z-coordinate {m}
-    45.820000000000,  !- Vertex 2 X-coordinate {m}
-    19.710000000000,  !- Vertex 2 Y-coordinate {m}
-    0.000000000000,  !- Vertex 2 Z-coordinate {m}
-    45.820000000000,  !- Vertex 3 X-coordinate {m}
-    40.570000000000,  !- Vertex 3 Y-coordinate {m}
-    0.000000000000,  !- Vertex 3 Z-coordinate {m}
-    45.820000000000,  !- Vertex 4 X-coordinate {m}
-    40.570000000000,  !- Vertex 4 Y-coordinate {m}
-    3.600000000000;  !- Vertex 4 Z-coordinate {m}
+    0,  !- Number of Vertices
+    ;  !- Vertex 1 X-coordinate {m}
+ 
 
   BuildingSurface:Detailed,
     CA8484,  !- Name
@@ -1532,31 +1452,9 @@ SurfaceProperty:OtherSideCoefficients,
     NoSun,  !- Sun Exposure
     NoWind,  !- Wind Exposure
     0.0,  !- TRNSYS 17 - additional surface data
-    8,  !- Number of Vertices
-    35.620000000000,  !- Vertex 1 X-coordinate {m}
-    42.420000000000,  !- Vertex 1 Y-coordinate {m}
-    3.600000000000,  !- Vertex 1 Z-coordinate {m}
-    35.620000000000,  !- Vertex 2 X-coordinate {m}
-    19.710000000000,  !- Vertex 2 Y-coordinate {m}
-    3.600000000000,  !- Vertex 2 Z-coordinate {m}
-    41.910000000000,  !- Vertex 3 X-coordinate {m}
-    19.710000000000,  !- Vertex 3 Y-coordinate {m}
-    3.600000000000,  !- Vertex 3 Z-coordinate {m}
-    41.910000000000,  !- Vertex 4 X-coordinate {m}
-    25.970000000000,  !- Vertex 4 Y-coordinate {m}
-    3.600000000000,  !- Vertex 4 Z-coordinate {m}
-    45.820000000000,  !- Vertex 5 X-coordinate {m}
-    25.970000000000,  !- Vertex 5 Y-coordinate {m}
-    3.600000000000,  !- Vertex 5 Z-coordinate {m}
-    45.820000000000,  !- Vertex 6 X-coordinate {m}
-    40.570000000000,  !- Vertex 6 Y-coordinate {m}
-    3.600000000000,  !- Vertex 6 Z-coordinate {m}
-    38.930000000000,  !- Vertex 7 X-coordinate {m}
-    40.570000000000,  !- Vertex 7 Y-coordinate {m}
-    3.600000000000,  !- Vertex 7 Z-coordinate {m}
-    38.930000000000,  !- Vertex 8 X-coordinate {m}
-    42.420000000000,  !- Vertex 8 Y-coordinate {m}
-    3.600000000000;  !- Vertex 8 Z-coordinate {m}
+    0,  !- Number of Vertices
+    ;  !- Vertex 1 X-coordinate {m}
+ 
  
 
   BuildingSurface:Detailed,
@@ -1749,19 +1647,9 @@ SurfaceProperty:OtherSideCoefficients,
     SunExposed,  !- Sun Exposure
     WindExposed,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
-    4,  !- Number of Vertices
-    43.860000000000,  !- Vertex 1 X-coordinate {m}
-    42.420000000000,  !- Vertex 1 Y-coordinate {m}
-    9.070000000000,  !- Vertex 1 Z-coordinate {m}
-    43.860000000000,  !- Vertex 2 X-coordinate {m}
-    42.420000000000,  !- Vertex 2 Y-coordinate {m}
-    3.600000000000,  !- Vertex 2 Z-coordinate {m}
-    34.170000000000,  !- Vertex 3 X-coordinate {m}
-    42.420000000000,  !- Vertex 3 Y-coordinate {m}
-    3.600000000000,  !- Vertex 3 Z-coordinate {m}
-    34.170000000000,  !- Vertex 4 X-coordinate {m}
-    42.420000000000,  !- Vertex 4 Y-coordinate {m}
-    9.070000000000;  !- Vertex 4 Z-coordinate {m}
+    0,  !- Number of Vertices
+    ;  !- Vertex 1 X-coordinate {m}
+ 
 
   BuildingSurface:Detailed,
     8772DA,  !- Name
@@ -1773,19 +1661,9 @@ SurfaceProperty:OtherSideCoefficients,
     NoSun,  !- Sun Exposure
     NoWind,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
-    4,  !- Number of Vertices
-    34.170000000000,  !- Vertex 1 X-coordinate {m}
-    40.570000000000,  !- Vertex 1 Y-coordinate {m}
-    9.070000000000,  !- Vertex 1 Z-coordinate {m}
-    34.170000000000,  !- Vertex 2 X-coordinate {m}
-    40.570000000000,  !- Vertex 2 Y-coordinate {m}
-    3.600000000000,  !- Vertex 2 Z-coordinate {m}
-    26.510000000000,  !- Vertex 3 X-coordinate {m}
-    40.570000000000,  !- Vertex 3 Y-coordinate {m}
-    3.600000000000,  !- Vertex 3 Z-coordinate {m}
-    26.510000000000,  !- Vertex 4 X-coordinate {m}
-    40.570000000000,  !- Vertex 4 Y-coordinate {m}
-    9.070000000000;  !- Vertex 4 Z-coordinate {m}
+    0,  !- Number of Vertices
+    ;  !- Vertex 1 X-coordinate {m}
+ 
 
   BuildingSurface:Detailed,
     A5D393,  !- Name
@@ -1821,42 +1699,6 @@ SurfaceProperty:OtherSideCoefficients,
     NoSun,  !- Sun Exposure
     NoWind,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
-    8,  !- Number of Vertices
-    45.820000000000,  !- Vertex 1 X-coordinate {m}
-    40.570000000000,  !- Vertex 1 Y-coordinate {m}
-    3.600000000000,  !- Vertex 1 Z-coordinate {m}
-    45.820000000000,  !- Vertex 2 X-coordinate {m}
-    25.970000000000,  !- Vertex 2 Y-coordinate {m}
-    3.600000000000,  !- Vertex 2 Z-coordinate {m}
-    41.910000000000,  !- Vertex 3 X-coordinate {m}
-    25.970000000000,  !- Vertex 3 Y-coordinate {m}
-    3.600000000000,  !- Vertex 3 Z-coordinate {m}
-    41.910000000000,  !- Vertex 4 X-coordinate {m}
-    19.710000000000,  !- Vertex 4 Y-coordinate {m}
-    3.600000000000,  !- Vertex 4 Z-coordinate {m}
-     35.620000000000,  !- Vertex 5 X-coordinate {m}
-    19.710000000000,  !- Vertex 5 Y-coordinate {m}
-    3.600000000000,  !- Vertex 5 Z-coordinate {m}
-    35.620000000000,  !- Vertex 6 X-coordinate {m}
-    42.420000000000,  !- Vertex 6 Y-coordinate {m}
-    3.600000000000,  !- Vertex 6 Z-coordinate {m}
-    38.930000000000,  !- Vertex 7 X-coordinate {m}
-    42.420000000000,  !- Vertex 7 Y-coordinate {m}
-    3.600000000000,  !- Vertex 7 Z-coordinate {m}
-    38.930000000000,  !- Vertex 8 X-coordinate {m}
-    40.570000000000,  !- Vertex 8 Y-coordinate {m}
-    3.600000000000;  !- Vertex 8 Z-coordinate {m}
-
-  BuildingSurface:Detailed,
-    379601,  !- Name
-    Roof,  !- Surface Type
-    EXT_ROOF,  !- Construction Name
-    Technik,  !- Zone Name
-    Outdoors,  !- Outside Boundary Condition
-    ,  !- Outside Boundary Condition Object
-    SunExposed,  !- Sun Exposure
-    WindExposed,  !- Wind Exposure
-    ,  !- TRNSYS 17 - additional surface data
     0,  !- Number of Vertices
     ;  !- Vertex 1 X-coordinate {m}
  
@@ -1871,43 +1713,9 @@ SurfaceProperty:OtherSideCoefficients,
     SunExposed,  !- Sun Exposure
     WindExposed,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
-    12,  !- Number of Vertices
-    45.820000000000,  !- Vertex 1 X-coordinate {m}
-    40.570000000000,  !- Vertex 1 Y-coordinate {m}
-    0.000000000000,  !- Vertex 1 Z-coordinate {m}
-    45.820000000000,  !- Vertex 2 X-coordinate {m}
-    19.710000000000,  !- Vertex 2 Y-coordinate {m}
-    0.000000000000,  !- Vertex 2 Z-coordinate {m}
-    41.910000000000,  !- Vertex 3 X-coordinate {m}
-    19.710000000000,  !- Vertex 3 Y-coordinate {m}
-    0.000000000000,  !- Vertex 3 Z-coordinate {m}
-    41.910000000000,  !- Vertex 4 X-coordinate {m}
-    10.410000000000,  !- Vertex 4 Y-coordinate {m}
-    0.000000000000,  !- Vertex 4 Z-coordinate {m}
-    39.710000000000,  !- Vertex 5 X-coordinate {m}
-    10.410000000000,  !- Vertex 5 Y-coordinate {m}
-    0.000000000000,  !- Vertex 5 Z-coordinate {m}
-    39.710000000000,  !- Vertex 6 X-coordinate {m}
-    3.060000000000,  !- Vertex 6 Y-coordinate {m}
-    0.000000000000,  !- Vertex 6 Z-coordinate {m}
-    33.810000000000,  !- Vertex 7 X-coordinate {m}
-    3.060000000000,  !- Vertex 7 Y-coordinate {m}
-    0.000000000000,  !- Vertex 7 Z-coordinate {m}
-    33.810000000000,  !- Vertex 8 X-coordinate {m}
-    19.710000000000,  !- Vertex 8 Y-coordinate {m}
-    0.000000000000,  !- Vertex 8 Z-coordinate {m}
-     35.620000000000,  !- Vertex 9 X-coordinate {m}
-    19.710000000000,  !- Vertex 9 Y-coordinate {m}
-    0.000000000000,  !- Vertex 9 Z-coordinate {m}
-    35.620000000000,  !- Vertex 10 X-coordinate {m}
-    42.420000000000,  !- Vertex 10 Y-coordinate {m}
-    0.000000000000,  !- Vertex 10 Z-coordinate {m}
-    38.930000000000,  !- Vertex 11 X-coordinate {m}
-    42.420000000000,  !- Vertex 11 Y-coordinate {m}
-    0.000000000000,  !- Vertex 11 Z-coordinate {m}
-    38.930000000000,  !- Vertex 12 X-coordinate {m}
-    40.570000000000,  !- Vertex 12 Y-coordinate {m}
-    0.000000000000;  !- Vertex 12 Z-coordinate {m}
+    0,  !- Number of Vertices
+    ;  !- Vertex 1 X-coordinate {m}
+ 
 
   BuildingSurface:Detailed,
     177FDE,  !- Name
@@ -1943,19 +1751,9 @@ SurfaceProperty:OtherSideCoefficients,
     NoSun,  !- Sun Exposure
     NoWind,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
-    4,  !- Number of Vertices
-    29.510000000000,  !- Vertex 1 X-coordinate {m}
-    40.570000000000,  !- Vertex 1 Y-coordinate {m}
-    3.600000000000,  !- Vertex 1 Z-coordinate {m}
-    29.510000000000,  !- Vertex 2 X-coordinate {m}
-    40.570000000000,  !- Vertex 2 Y-coordinate {m}
-    0.000000000000,  !- Vertex 2 Z-coordinate {m}
-    29.510000000000,  !- Vertex 3 X-coordinate {m}
-    19.710000000000,  !- Vertex 3 Y-coordinate {m}
-    0.000000000000,  !- Vertex 3 Z-coordinate {m}
-    29.510000000000,  !- Vertex 4 X-coordinate {m}
-    19.710000000000,  !- Vertex 4 Y-coordinate {m}
-    3.600000000000;  !- Vertex 4 Z-coordinate {m}
+    0,  !- Number of Vertices
+    ;  !- Vertex 1 X-coordinate {m}
+ 
  
 
   BuildingSurface:Detailed,
@@ -1968,19 +1766,9 @@ SurfaceProperty:OtherSideCoefficients,
     NoSun,  !- Sun Exposure
     NoWind,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
-    4,  !- Number of Vertices
-    45.820000000000,  !- Vertex 1 X-coordinate {m}
-    42.420000000000,  !- Vertex 1 Y-coordinate {m}
-    3.600000000000,  !- Vertex 1 Z-coordinate {m}
-    45.820000000000,  !- Vertex 2 X-coordinate {m}
-    40.570000000000,  !- Vertex 2 Y-coordinate {m}
-    3.600000000000,  !- Vertex 2 Z-coordinate {m}
-    38.930000000000,  !- Vertex 3 X-coordinate {m}
-    40.570000000000,  !- Vertex 3 Y-coordinate {m}
-    3.600000000000,  !- Vertex 3 Z-coordinate {m}
-    38.930000000000,  !- Vertex 4 X-coordinate {m}
-    42.420000000000,  !- Vertex 4 Y-coordinate {m}
-    3.600000000000;  !- Vertex 4 Z-coordinate {m}
+    0,  !- Number of Vertices
+    ;  !- Vertex 1 X-coordinate {m}
+ 
  
 
   BuildingSurface:Detailed,
@@ -2017,19 +1805,9 @@ SurfaceProperty:OtherSideCoefficients,
     SunExposed,  !- Sun Exposure
     WindExposed,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
-    4,  !- Number of Vertices
-    45.820000000000,  !- Vertex 1 X-coordinate {m}
-    25.970000000000,  !- Vertex 1 Y-coordinate {m}
-    9.070000000000,  !- Vertex 1 Z-coordinate {m}
-    45.820000000000,  !- Vertex 2 X-coordinate {m}
-    25.970000000000,  !- Vertex 2 Y-coordinate {m}
-    3.600000000000,  !- Vertex 2 Z-coordinate {m}
-    45.820000000000,  !- Vertex 3 X-coordinate {m}
-    42.420000000000,  !- Vertex 3 Y-coordinate {m}
-    3.600000000000,  !- Vertex 3 Z-coordinate {m}
-    45.820000000000,  !- Vertex 4 X-coordinate {m}
-    42.420000000000,  !- Vertex 4 Y-coordinate {m}
-    9.070000000000;  !- Vertex 4 Z-coordinate {m}
+    0,  !- Number of Vertices
+    ;  !- Vertex 1 X-coordinate {m}
+ 
 
   BuildingSurface:Detailed,
     DB9BAB,  !- Name
@@ -2089,25 +1867,9 @@ SurfaceProperty:OtherSideCoefficients,
     SunExposed,  !- Sun Exposure
     WindExposed,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
-    6,  !- Number of Vertices
-    33.810000000000,  !- Vertex 1 X-coordinate {m}
-    19.710000000000,  !- Vertex 1 Y-coordinate {m}
-    3.600000000000,  !- Vertex 1 Z-coordinate {m}
-    33.810000000000,  !- Vertex 2 X-coordinate {m}
-    3.060000000000,  !- Vertex 2 Y-coordinate {m}
-    3.600000000000,  !- Vertex 2 Z-coordinate {m}
-    39.710000000000,  !- Vertex 3 X-coordinate {m}
-    3.060000000000,  !- Vertex 3 Y-coordinate {m}
-    3.600000000000,  !- Vertex 3 Z-coordinate {m}
-    39.710000000000,  !- Vertex 4 X-coordinate {m}
-    10.410000000000,  !- Vertex 4 Y-coordinate {m}
-    3.600000000000,  !- Vertex 4 Z-coordinate {m}
-    41.910000000000,  !- Vertex 5 X-coordinate {m}
-    10.410000000000,  !- Vertex 5 Y-coordinate {m}
-    3.600000000000,  !- Vertex 5 Z-coordinate {m}
-    41.910000000000,  !- Vertex 6 X-coordinate {m}
-    19.710000000000,  !- Vertex 6 Y-coordinate {m}
-    3.600000000000;  !- Vertex 6 Z-coordinate {m}
+    0,  !- Number of Vertices
+    ;  !- Vertex 1 X-coordinate {m}
+ 
 
   BuildingSurface:Detailed,
     CBECD3,  !- Name
@@ -2119,16 +1881,6 @@ SurfaceProperty:OtherSideCoefficients,
     SunExposed,  !- Sun Exposure
     WindExposed,  !- Wind Exposure
     ,  !- TRNSYS 17 - additional surface data
-    4,  !- Number of Vertices
-    41.910000000000,  !- Vertex 1 X-coordinate {m}
-    25.970000000000,  !- Vertex 1 Y-coordinate {m}
-    3.600000000000,  !- Vertex 1 Z-coordinate {m}
-    41.910000000000,  !- Vertex 2 X-coordinate {m}
-    19.710000000000,  !- Vertex 2 Y-coordinate {m}
-    3.600000000000,  !- Vertex 2 Z-coordinate {m}
-    45.820000000000,  !- Vertex 3 X-coordinate {m}
-    19.710000000000,  !- Vertex 3 Y-coordinate {m}
-    3.600000000000,  !- Vertex 3 Z-coordinate {m}
-    45.820000000000,  !- Vertex 4 X-coordinate {m}
-    25.970000000000,  !- Vertex 4 Y-coordinate {m}
-    3.600000000000;  !- Vertex 4 Z-coordinate {m}
+    0,  !- Number of Vertices
+    ;  !- Vertex 1 X-coordinate {m}
+ 

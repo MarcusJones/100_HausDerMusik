@@ -633,20 +633,6 @@ WindowProperty:ShadingControl,
     3.600000000000;  !- Vertex 4 Z-coordinate {m}
     
   BuildingSurface:Detailed,
-    9,  !- Name
-    Wall,  !- Surface Type
-    ADJ_WALL,  !- Construction Name
-    TECHNIK,  !- Zone Name
-    Zone,  !- Outside Boundary Condition
-    KONZERTSAAL,  !- Outside Boundary Condition Object
-    NoSun,  !- Sun Exposure
-    NoWind,  !- Wind Exposure
-    FRONT,  !- TRNSYS 17 - additional surface data
-    0,  !- Number of Vertices
-    ;  !- Vertex 1 X-coordinate {m}
- 
-    
-  BuildingSurface:Detailed,
     10,  !- Name
     Wall,  !- Surface Type
     EXT_WALL,  !- Construction Name
@@ -977,20 +963,6 @@ WindowProperty:ShadingControl,
     3.600000000000;  !- Vertex 4 Z-coordinate {m}
     
   BuildingSurface:Detailed,
-    19,  !- Name
-    Ceiling,  !- Surface Type
-    ADJ_CEILING,  !- Construction Name
-    TECHNIK,  !- Zone Name
-    Zone,  !- Outside Boundary Condition
-    KONZERTSAAL,  !- Outside Boundary Condition Object
-    NoSun,  !- Sun Exposure
-    NoWind,  !- Wind Exposure
-    0.0,  !- TRNSYS 17 - additional surface data
-    0,  !- Number of Vertices
-    ;  !- Vertex 1 X-coordinate {m}
- 
-    
-  BuildingSurface:Detailed,
     20,  !- Name
     Wall,  !- Surface Type
     EXT_WALL,  !- Construction Name
@@ -1094,34 +1066,6 @@ WindowProperty:ShadingControl,
     0.0,  !- Z Origin {m}
     ,  !- Type
     1;  !- Multiplier
-    
-  BuildingSurface:Detailed,
-    24,  !- Name
-    Wall,  !- Surface Type
-    EXT_WALL,  !- Construction Name
-    KONZERTSAAL,  !- Zone Name
-    Outdoors,  !- Outside Boundary Condition
-    ,  !- Outside Boundary Condition Object
-    SunExposed,  !- Sun Exposure
-    WindExposed,  !- Wind Exposure
-    0.0,  !- TRNSYS 17 - additional surface data
-    0,  !- Number of Vertices
-    ;  !- Vertex 1 X-coordinate {m}
- 
-    
-  BuildingSurface:Detailed,
-    25,  !- Name
-    Wall,  !- Surface Type
-    ADJ_WALL,  !- Construction Name
-    KONZERTSAAL,  !- Zone Name
-    Zone,  !- Outside Boundary Condition
-    TECHNIK,  !- Outside Boundary Condition Object
-    NoSun,  !- Sun Exposure
-    NoWind,  !- Wind Exposure
-    0.0,  !- TRNSYS 17 - additional surface data
-    0,  !- Number of Vertices
-    ;  !- Vertex 1 X-coordinate {m}
- 
     
   BuildingSurface:Detailed,
     26,  !- Name
@@ -3632,4 +3576,3 @@ WindowProperty:ShadingControl,
     14.180000000000,  !- Vertex 4 Y-coordinate {m}
     3.600000000000;  !- Vertex 4 Z-coordinate {m}
  
-

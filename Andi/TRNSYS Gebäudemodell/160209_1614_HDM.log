@@ -1,0 +1,153 @@
+************************************************************
+** TRNSIDF Version 1.55 
+** Working directory: C:\Users\ank\Desktop\Haus der Musik Innsbruck\TRNSYS Gebäudemodell\ 
+************************************************************
+** Reading IDF file: C:\Users\ank\Desktop\Haus der Musik Innsbruck\TRNSYS Gebäudemodell\160209_1614_HDM.idf
+** Closing IDF file: C:\Users\ank\Desktop\Haus der Musik Innsbruck\TRNSYS Gebäudemodell\160209_1614_HDM.idf
+************************************************************
+** Reading presorted IDF file: C:\Users\ank\Desktop\Haus der Musik Innsbruck\TRNSYS Gebäudemodell\160209_1614_HDM_b17.idf
+** Closing IDF file: C:\Users\ank\Desktop\Haus der Musik Innsbruck\TRNSYS Gebäudemodell\160209_1614_HDM_b17.idf
+************************************************************
+** Calculation of geometry information start
+Surface : Normal vector : Orientation : Area
+    18        done           done       done
+    16        done           done       done
+    20        done           done       done
+    11        done           done       done
+    78        done           done       done
+     2        done           done       done
+    17        done           done       done
+    14        done           done       done
+     8        done           done       done
+     5        done           done       done
+    21        done           done       done
+     7        done           done       done
+    10        done           done       done
+    12        done           done       done
+    19        done           done       done
+     1        done           done       done
+    22        done           done       done
+    13        done           done       done
+     6        done           done       done
+     3        done           done       done
+     9        done           done       done
+     4        done           done       done
+    44        done           done       done
+    84        done           done       done
+    27        done           done       done
+    31        done           done       done
+    29        done           done       done
+    81        done           done       done
+    82        done           done       done
+    49        done           done       done
+    79        done           done       done
+    23        done           done       done
+    47        done           done       done
+    37        done           done       done
+    43        done           done       done
+    26        done           done       done
+    80        done           done       done
+    48        done           done       done
+    50        done           done       done
+    39        done           done       done
+    41        done           done       done
+    45        done           done       done
+    30        done           done       done
+    25        done           done       done
+    28        done           done       done
+    40        done           done       done
+    83        done           done       done
+    42        done           done       done
+    46        done           done       done
+    85        done           done       done
+    38        done           done       done
+    34        done           done       done
+    55        done           done       done
+    57        done           done       done
+    65        done           done       done
+    58        done           done       done
+    60        done           done       done
+    62        done           done       done
+    63        done           done       done
+    61        done           done       done
+    64        done           done       done
+    52        done           done       done
+    56        done           done       done
+    54        done           done       done
+    59        done           done       done
+    53        done           done       done
+    51        done           done       done
+    71        done           done       done
+   131        done           done       done
+   109        done           done       done
+   132        done           done       done
+    89        done           done       done
+   106        done           done       done
+    73        done           done       done
+    76        done           done       done
+   110        done           done       done
+    69        done           done       done
+   133        done           done       done
+   108        done           done       done
+   107        done           done       done
+    77        done           done       done
+    70        done           done       done
+    68        done           done       done
+    88        done           done       done
+   105        done           done       done
+   102        done           done       done
+    95        done           done       done
+   134        done           done       done
+    93        done           done       done
+   135        done           done       done
+   114        done           done       done
+   101        done           done       done
+   112        done           done       done
+   104        done           done       done
+    96        done           done       done
+    98        done           done       done
+   117        done           done       done
+    99        done           done       done
+   136        done           done       done
+   115        done           done       done
+    92        done           done       done
+   103        done           done       done
+   113        done           done       done
+    91        done           done       done
+    97        done           done       done
+   116        done           done       done
+   100        done           done       done
+    94        done           done       done
+   111        done           done       done
+   118        done           done       done
+   121        done           done       done
+   119        done           done       done
+   123        done           done       done
+   120        done           done       done
+   122        done           done       done
+   127        done           done       done
+   125        done           done       done
+   129        done           done       done
+   124        done           done       done
+   126        done           done       done
+   128        done           done       done
+   130        done           done       done
+   137        done           done       done
+   138        done           done       done
+   139        done           done       done
+   140        done           done       done
+   141        done           done       done
+   142        done           done       done
+   143        done           done       done
+   144        done           done       done
+   145        done           done       done
+   146        done           done       done
+** Calculation of geometry information end
+************************************************************
+** Writing B17 file: C:\Users\ank\Desktop\Haus der Musik Innsbruck\TRNSYS Gebäudemodell\160209_1614_HDM.b17
+** Reading BUI template: NewBuiTemplate.b17
+************************************************************
+** New orientations (set to internal radiation calculation): 
+************************************************************
+** Closing BUI template: NewBuiTemplate.b17
+** Closing B17 File: C:\Users\ank\Desktop\Haus der Musik Innsbruck\TRNSYS Gebäudemodell\160209_1614_HDM.b17

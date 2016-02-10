@@ -1,0 +1,43 @@
+************************************************************
+** TRNSIDF Version 1.55 
+** Working directory: C:\Users\ank\Desktop\Haus der Musik Innsbruck\TRNSYS Gebäudemodell\ 
+************************************************************
+** Reading IDF file: C:\Users\ank\Desktop\Haus der Musik Innsbruck\TRNSYS Gebäudemodell\160210_1051_HDM.idf
+** Closing IDF file: C:\Users\ank\Desktop\Haus der Musik Innsbruck\TRNSYS Gebäudemodell\160210_1051_HDM.idf
+************************************************************
+** Reading presorted IDF file: C:\Users\ank\Desktop\Haus der Musik Innsbruck\TRNSYS Gebäudemodell\160210_1051_HDM_b17.idf
+** Closing IDF file: C:\Users\ank\Desktop\Haus der Musik Innsbruck\TRNSYS Gebäudemodell\160210_1051_HDM_b17.idf
+************************************************************
+** Calculation of geometry information start
+Surface : Normal vector : Orientation : Area
+    18        done           done       done
+    16        done           done       done
+    20        done           done       done
+    11        done           done       done
+    78        done           done       done
+     2        done           done       done
+    17        done           done       done
+    14        done           done       done
+     8        done           done       done
+     5        done           done       done
+    21        done           done       done
+     7        done           done       done
+    10        done           done       done
+    12        done           done       done
+    19        done           done       done
+     1        done           done       done
+    22        done           done       done
+    13        done           done       done
+     6        done           done       done
+     3        done           done       done
+     9        done           done       done
+     4        done           done       done
+    44        done           done       done
+    27        done           done       done
+    84        done           done       done
+    31        done           done       done
+    29        done           done       done
+    81        done           done       done
+    82        done           done       done
+    49        done           done       done
+   123
